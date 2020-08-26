@@ -1,1 +1,1 @@
-This is a text file for testing successful committing to GitHub
+This is a text file for testing a successful commit to GitHub
