@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6574aa33-a0fd-45a5-a758-5a9b1034cbd3" name="Default Changelist" comment="" />
@@ -12,12 +12,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BusController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/01 - Player Movement/BusController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/01 - Player Movement/CameraFollowBus.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/BusController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/01 - Player Movement/BusController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/01 - Player Movement/CameraFollowBus.cs" />
       </list>
     </option>
   </component>
@@ -51,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599690521115</updated>
       <workItem from="1599690542490" duration="2366000" />
+      <workItem from="1600121243472" duration="4098000" />
     </task>
     <servers />
   </component>
@@ -62,7 +66,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
