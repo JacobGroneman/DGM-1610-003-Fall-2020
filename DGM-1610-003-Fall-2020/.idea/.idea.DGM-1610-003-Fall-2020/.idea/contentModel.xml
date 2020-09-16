@@ -12,7 +12,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="01 - Player Movement" t="Include">
+          <e p="01 - Prototype Driving Simulator" t="Include">
             <e p="BusController.cs" t="Include" />
             <e p="CameraFollowBus.cs" t="Include" />
           </e>

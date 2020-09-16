@@ -12,8 +12,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/01 - Player Movement/BusController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/01 - Player Movement/CameraFollowBus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/01 - Prototype Driving Simulator/CameraFollowBus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/01 - Prototype Driving Simulator/BusController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,7 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599690521115</updated>
       <workItem from="1599690542490" duration="2366000" />
-      <workItem from="1600121243472" duration="4098000" />
+      <workItem from="1600121243472" duration="4800000" />
+      <workItem from="1600292501606" duration="2720000" />
     </task>
     <servers />
   </component>

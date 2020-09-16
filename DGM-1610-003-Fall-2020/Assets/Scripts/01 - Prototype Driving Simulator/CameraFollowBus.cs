@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraFollowBus : MonoBehaviour
 {
-    public GameObject bus;
-    public Vector3 cameraOffset = new Vector3(0, 12, -12);
+    private GameObject bus;
+    private Vector3 cameraOffset = new Vector3(0, 12, -12);
 
     void Start()
     {
@@ -15,6 +15,7 @@ public class CameraFollowBus : MonoBehaviour
 
     void FixedUpdate()
     {
+        //Camera Main Follow Bus Position
         var busPosition = bus.transform.position;
         transform.position = busPosition + cameraOffset;
     }

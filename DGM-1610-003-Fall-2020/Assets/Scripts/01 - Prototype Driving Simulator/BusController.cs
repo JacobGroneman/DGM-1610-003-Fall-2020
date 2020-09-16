@@ -4,25 +4,22 @@ using UnityEngine;
 
 public class BusController : MonoBehaviour
 {
-    public int velocity = 0;
-    public float turnSpeed = 0;
+    private int velocity = 20;
+    private float turnSpeed = 100;
     
-    public float HorizontalInput;
-    public float VerticalInput;
-
-    void Start()
-    {
-        
-    }
-
+    private float HorizontalInput;
+    private float VerticalInput;
+    
     void Update()
     {
         //Control Button Mechanics
         HorizontalInput = Input.GetAxis("Horizontal");
         VerticalInput = Input.GetAxis("Vertical");
         
-        //Control Forward
+        
+        //Control Forward by Vertical Input
         transform.Translate(Vector3.forward * velocity * VerticalInput * Time.deltaTime);
-        transform.Translate(Vector3.right * turnSpeed * HorizontalInput * Time.deltaTime);
+        //Control Rotate by Horizontal Input
+        transform.Rotate(Vector3.up * turnSpeed * HorizontalInput * Time.deltaTime);
     }
 }
