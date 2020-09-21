@@ -6,26 +6,31 @@
     <e p="C:\Users\jacob\OneDrive\Utah Valley University\_Fall 2020\_Scripting 2020\DGM-1610-003-Fall-2020\DGM-1610-003-Fall-2020" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Challenge 1" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="FollowPlayerX.cs" t="Include" />
-            <e p="PlayerControllerX.cs" t="Include" />
-          </e>
-        </e>
         <e p="Course Library" t="Include">
           <e p="_Source_Files" t="Include">
             <e p="_LICENSE.txt" t="Include" />
           </e>
         </e>
-        <e p="Scripts" t="Include">
-          <e p="01 - _Prototype Driving Simulator" t="Include">
-            <e p="BusController.cs" t="Include" />
-            <e p="CameraFollowBus.cs" t="Include" />
+        <e p="Scenes and Challenges" t="Include">
+          <e p="Challenge 1" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="FollowPlayerX.cs" t="Include" />
+              <e p="PlayerControllerX.cs" t="Include" />
+            </e>
           </e>
-          <e p="01 - Challenge" t="Include">
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="01 - Challenge 1 - Plane Programming" t="Include">
             <e p="FollowPlayerX1.cs" t="Include" />
             <e p="PlayerControllerX1.cs" t="Include" />
             <e p="PropellerMovement.cs" t="Include" />
+          </e>
+          <e p="01 - Prototype Driving Simulator" t="Include">
+            <e p="BusController.cs" t="Include" />
+            <e p="CameraFollowBus.cs" t="Include" />
+          </e>
+          <e p="02 - Prototype 2 - Animal Stamped" t="Include">
+            <e p="PlayerFarmerController.cs" t="Include" />
           </e>
         </e>
       </e>
