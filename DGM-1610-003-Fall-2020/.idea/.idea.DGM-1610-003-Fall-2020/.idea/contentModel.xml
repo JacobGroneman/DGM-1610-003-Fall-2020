@@ -20,17 +20,24 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="01 - Challenge 1 - Plane Programming" t="Include">
-            <e p="FollowPlayerX1.cs" t="Include" />
-            <e p="PlayerControllerX1.cs" t="Include" />
-            <e p="PropellerMovement.cs" t="Include" />
+          <e p="Class" t="Include">
+            <e p="01 - Challenge 1 - Plane Programming" t="Include">
+              <e p="FollowPlayerX1.cs" t="Include" />
+              <e p="PlayerControllerX1.cs" t="Include" />
+              <e p="PropellerMovement.cs" t="Include" />
+            </e>
+            <e p="01 - Prototype Driving Simulator" t="Include">
+              <e p="BusController.cs" t="Include" />
+              <e p="CameraFollowBus.cs" t="Include" />
+            </e>
+            <e p="02 - Prototype 2 - Animal Stamped" t="Include">
+              <e p="PlayerFarmerController.cs" t="Include" />
+            </e>
           </e>
-          <e p="01 - Prototype Driving Simulator" t="Include">
-            <e p="BusController.cs" t="Include" />
-            <e p="CameraFollowBus.cs" t="Include" />
-          </e>
-          <e p="02 - Prototype 2 - Animal Stamped" t="Include">
-            <e p="PlayerFarmerController.cs" t="Include" />
+          <e p="Homework" t="Include">
+            <e p="Player Controllers" t="Include">
+              <e p="HWPlayerConroller.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>
