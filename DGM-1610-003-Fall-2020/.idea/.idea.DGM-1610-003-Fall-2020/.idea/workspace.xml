@@ -15,7 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Player Controllers/HWPlayerConroller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Prototype Driving Simulator/BusController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Challenge 1 - Plane Programming/PlayerControllerX1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -34,6 +34,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/01 - Challenge 1 - Plane Programming/FollowPlayerX1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Player Controllers/HWPlayerConroller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" />
       </list>
     </option>
   </component>
@@ -72,7 +73,8 @@
       <workItem from="1600581501472" duration="5239000" />
       <workItem from="1600725294990" duration="3426000" />
       <workItem from="1600837531719" duration="961000" />
-      <workItem from="1600838563148" duration="1399000" />
+      <workItem from="1600838563148" duration="1898000" />
+      <workItem from="1600899601583" duration="2054000" />
     </task>
     <servers />
   </component>
