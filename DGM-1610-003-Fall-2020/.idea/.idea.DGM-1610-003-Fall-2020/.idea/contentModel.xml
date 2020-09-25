@@ -35,8 +35,17 @@
             </e>
           </e>
           <e p="Homework" t="Include">
-            <e p="Player Controllers" t="Include">
-              <e p="HWPlayerConroller.cs" t="Include" />
+            <e p="Learning" t="Include">
+              <e p="NightSky (cOg Mission)" t="Include">
+                <e p="CameraFollowLook.cs" t="Include" />
+                <e p="ExtendedFlyCam.cs" t="Include" />
+              </e>
+              <e p="Player Controllers" t="Include">
+                <e p="HWPlayerConroller.cs" t="Include" />
+              </e>
+              <e p="Randomization" t="Include">
+                <e p="RandomPosition.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>

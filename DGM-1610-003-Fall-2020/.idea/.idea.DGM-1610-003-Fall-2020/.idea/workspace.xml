@@ -12,10 +12,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Player Controllers/HWPlayerConroller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Prototype Driving Simulator/BusController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Challenge 1 - Plane Programming/PlayerControllerX1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Randomization/RandomPosition.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Player Controllers/HWPlayerConroller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Randomization/RandomPosition.cs" />
       </list>
     </option>
   </component>
@@ -74,7 +75,8 @@
       <workItem from="1600725294990" duration="3426000" />
       <workItem from="1600837531719" duration="961000" />
       <workItem from="1600838563148" duration="1898000" />
-      <workItem from="1600899601583" duration="2054000" />
+      <workItem from="1600899601583" duration="2244000" />
+      <workItem from="1601001651263" duration="929000" />
     </task>
     <servers />
   </component>
