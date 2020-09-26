@@ -46,6 +46,14 @@
               <e p="Randomization" t="Include">
                 <e p="RandomPosition.cs" t="Include" />
               </e>
+              <e p="Unity Learn AI" t="Include">
+                <e p="Autonomously Moving Agents" t="Include">
+                  <e p="Pursuit" t="Include">
+                    <e p="AIBot.cs" t="Include" />
+                    <e p="sfDrive.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
             </e>
           </e>
         </e>
