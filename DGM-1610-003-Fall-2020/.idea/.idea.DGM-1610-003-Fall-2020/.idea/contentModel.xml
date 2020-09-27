@@ -48,6 +48,9 @@
               </e>
               <e p="Unity Learn AI" t="Include">
                 <e p="Autonomously Moving Agents" t="Include">
+                  <e p="Evade" t="Include">
+                    <e p="AIBot1.cs" t="Include" />
+                  </e>
                   <e p="Pursuit" t="Include">
                     <e p="AIBot.cs" t="Include" />
                     <e p="sfDrive.cs" t="Include" />

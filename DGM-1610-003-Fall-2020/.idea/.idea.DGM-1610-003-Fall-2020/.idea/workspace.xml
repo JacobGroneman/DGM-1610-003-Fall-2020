@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Prototype Driving Simulator/BusController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Evade/AIBot1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Challenge 1 - Plane Programming/PlayerControllerX1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Pursuit/AIBot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,6 +42,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Randomization/RandomPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Pursuit/sfDrive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Pursuit/AIBot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Evade/AIBot1.cs" />
       </list>
     </option>
   </component>
@@ -83,6 +85,7 @@
       <workItem from="1600899601583" duration="2244000" />
       <workItem from="1601001651263" duration="1529000" />
       <workItem from="1601087916588" duration="2629000" />
+      <workItem from="1601177025141" duration="358000" />
     </task>
     <servers />
   </component>
