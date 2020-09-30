@@ -34,6 +34,7 @@
               <e p="FoodDestroy.cs" t="Include" />
               <e p="FoodMoveForward.cs" t="Include" />
               <e p="PlayerFarmerController.cs" t="Include" />
+              <e p="SpawnManager.cs" t="Include" />
             </e>
           </e>
           <e p="Homework" t="Include">

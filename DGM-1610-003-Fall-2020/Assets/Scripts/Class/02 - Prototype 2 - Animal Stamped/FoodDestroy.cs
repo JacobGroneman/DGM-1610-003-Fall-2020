@@ -5,7 +5,7 @@ using UnityEngine;
 public class FoodDestroy : MonoBehaviour
 {
     private float _upperBounds = 30f;
-    private float _lowerBounds = -10;
+    private float _lowerBounds = -10f;
     
     void Update()
     {
