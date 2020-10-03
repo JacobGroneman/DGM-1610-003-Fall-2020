@@ -17,12 +17,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Challenge 1 - Plane Programming/PlayerControllerX1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Pursuit/AIBot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Pursuit/sfDrive.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Player Controllers/HWPlayerConroller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/DayNightController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Randomization/RandomPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/ExtendedFlyCam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Pursuit/sfDrive.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Player Controllers/HWPlayerConroller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Randomization/RandomPosition.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,6 +52,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/ExtendedFlyCam.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/DayNightController.cs" />
       </list>
     </option>
   </component>
@@ -94,7 +98,8 @@
       <workItem from="1601087916588" duration="2629000" />
       <workItem from="1601177025141" duration="358000" />
       <workItem from="1601330704079" duration="4569000" />
-      <workItem from="1601503878065" duration="4770000" />
+      <workItem from="1601503878065" duration="4886000" />
+      <workItem from="1601699220991" duration="3092000" />
     </task>
     <servers />
   </component>

@@ -41,6 +41,7 @@
             <e p="Learning" t="Include">
               <e p="NightSky (cOg Mission)" t="Include">
                 <e p="CameraFollowLook.cs" t="Include" />
+                <e p="DayNightController.cs" t="Include" />
                 <e p="ExtendedFlyCam.cs" t="Include" />
               </e>
               <e p="Player Controllers" t="Include">
