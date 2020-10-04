@@ -20,10 +20,12 @@ public class DayNightController : MonoBehaviour
     //Sun Variables
     [SerializeField] private Transform _solTransform;
     [SerializeField] private Light _sol;
+    [SerializeField] private float _solAngleAtNoon;
     private float
         _intensity, _rotation, _previousRotation = -1f,
         _sunset, _sunrise, _sunDayRatio;
     private Vector3 _direction;
+    
 
     [SerializeField] public float
         Velocity = 100f;
@@ -41,19 +43,70 @@ public class DayNightController : MonoBehaviour
         //Sun Variable Assignment
         _sunrise = 86400f - _sunset;
         _sunDayRatio = (_sunset - _sunrise) / 43200f;
-        _direction = new Vector3(1f, 0, 0);
+        _direction = new Vector3(
+            Mathf.Cos(Mathf.Deg2Rad * _solAngleAtNoon), 
+            Mathf.Sin(Mathf.Deg2Rad * _solAngleAtNoon),
+            0);
     }
 
     void Update()
     {
+        //Time Updates
         currentTime += UnityEngine.Time.deltaTime * Velocity;
         if (currentTime > 86400f)
         {
             daysPassed += 1;
             currentTime -= 86400f;
         }
-    }
 
+        //Rotation Updates
+        if (_previousRotation == -1f)
+        {
+            _solTransform.eulerAngles = Vector3.zero;
+            _previousRotation = 0f;
+        }
+        else
+        {
+            _previousRotation = _rotation;
+        }
+
+        _rotation = (currentTime - 21600f) / 86400f * 360f; // 86400/4 = 21600
+        _solTransform.Rotate(_direction, _rotation - _previousRotation);
+
+        //Sol Intensity Updates
+        if (currentTime < _sunrise)
+        {
+            _intensity =
+                IntensityAtSunSet * currentTime / _sunrise;
+        }
+        else if (currentTime < 43200f)
+        {
+            _intensity =
+                IntensityAtSunSet + (IntensityAtNoon - IntensityAtSunSet)
+                * (currentTime - _sunrise) / (43200f - _sunrise);
+        }
+        else if (currentTime < _sunset)
+        {
+            _intensity =
+                IntensityAtNoon + (IntensityAtNoon - IntensityAtSunSet)
+                * (currentTime - 43200f) / (_sunset - 43200f);
+        }
+        else
+        {
+            _intensity =
+                IntensityAtSunSet - (1f - IntensityAtSunSet)
+                * (currentTime - _sunset) / (86400f - _sunset);
+        }
+        
+        RenderSettings.fogColor = 
+            Color.Lerp(_fogColorNight, _fogColorDay, _intensity * _intensity);
+        if (_sol != null) {_sol.intensity = _intensity;}
+    }
+    
+    
+    
+    
+    
     //Converts Vector3 Times to a Float
     private float HRS_ToTime(float hour, float minute, float second)
     {

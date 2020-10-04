@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.003
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -167,13 +167,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   daysPassed: 0
-  _hms: {x: 6, y: 0, z: 0}
+  _hms: {x: 12, y: 0, z: 0}
   _hmsSunset: {x: 10, y: 0, z: 0}
   IntensityAtNoon: 1
   IntensityAtSunSet: 0.5
-  _solTransform: {fileID: 0}
-  _sol: {fileID: 0}
-  Velocity: 100
+  _solTransform: {fileID: 1942715245}
+  _sol: {fileID: 1942715244}
+  _solAngleAtNoon: 30
+  Velocity: 2000
   _fogColorDay: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   _fogColorNight: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &644872980
