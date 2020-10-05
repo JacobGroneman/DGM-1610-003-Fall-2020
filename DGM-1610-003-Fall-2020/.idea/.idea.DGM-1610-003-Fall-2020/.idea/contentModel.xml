@@ -65,6 +65,11 @@
                 </e>
               </e>
             </e>
+            <e p="Urania" t="Include">
+              <e p="Stars" t="Include">
+                <e p="UraniaStarManager.cs" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
       </e>
