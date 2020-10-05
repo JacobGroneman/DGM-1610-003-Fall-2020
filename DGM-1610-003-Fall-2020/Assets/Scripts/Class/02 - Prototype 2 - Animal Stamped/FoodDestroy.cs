@@ -15,9 +15,12 @@ public class FoodDestroy : MonoBehaviour
             {    
                 Destroy(this.gameObject);    
             }
+            //(For Animals)
             else if (transform.position.z <= _lowerBounds)
             {
                 Destroy(this.gameObject);
+                Debug.Log("GAME OVER");
+                Time.timeScale = 0f;
             }
             #endregion
     }

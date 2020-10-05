@@ -8,6 +8,8 @@ public class FoodMoveForward : MonoBehaviour
     
     void Update()
     {
-        transform.Translate(Vector3.forward * velocity * Time.deltaTime);
+        #region Movement
+            transform.Translate(Vector3.forward * velocity * Time.deltaTime);
+            #endregion
     }
 }

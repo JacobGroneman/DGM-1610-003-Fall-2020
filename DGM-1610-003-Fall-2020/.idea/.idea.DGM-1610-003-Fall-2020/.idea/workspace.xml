@@ -22,8 +22,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/DayNightController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/ExtendedFlyCam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Pursuit/sfDrive.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Player Controllers/HWPlayerConroller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Randomization/RandomPosition.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,13 +53,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Evade/AIBot1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/MoveForward.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/ExtendedFlyCam.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/DayNightController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Other/IfStatementExample.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Stars/UraniaStarManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" />
       </list>
     </option>
   </component>
@@ -108,6 +111,7 @@
       <workItem from="1601867595830" duration="1679000" />
       <workItem from="1601874569757" duration="1414000" />
       <workItem from="1601876358385" duration="216000" />
+      <workItem from="1601935403149" duration="4489000" />
     </task>
     <servers />
   </component>

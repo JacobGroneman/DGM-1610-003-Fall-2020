@@ -31,6 +31,7 @@
               <e p="CameraFollowBus.cs" t="Include" />
             </e>
             <e p="02 - Prototype 2 - Animal Stamped" t="Include">
+              <e p="AnimalDetectCollision.cs" t="Include" />
               <e p="FoodDestroy.cs" t="Include" />
               <e p="FoodMoveForward.cs" t="Include" />
               <e p="PlayerFarmerController.cs" t="Include" />
