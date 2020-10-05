@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Other/IfStatementExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Prototype Driving Simulator/BusController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Evade/AIBot1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Challenge 1 - Plane Programming/PlayerControllerX1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -54,6 +55,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/ExtendedFlyCam.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/DayNightController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Other/IfStatementExample.cs" />
       </list>
     </option>
   </component>
@@ -100,7 +102,8 @@
       <workItem from="1601330704079" duration="4569000" />
       <workItem from="1601503878065" duration="4886000" />
       <workItem from="1601699220991" duration="4103000" />
-      <workItem from="1601770163316" duration="3602000" />
+      <workItem from="1601770163316" duration="3716000" />
+      <workItem from="1601867595830" duration="1617000" />
     </task>
     <servers />
   </component>

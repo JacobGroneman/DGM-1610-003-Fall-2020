@@ -44,6 +44,9 @@
                 <e p="DayNightController.cs" t="Include" />
                 <e p="ExtendedFlyCam.cs" t="Include" />
               </e>
+              <e p="Other" t="Include">
+                <e p="IfStatementExample.cs" t="Include" />
+              </e>
               <e p="Player Controllers" t="Include">
                 <e p="HWPlayerConroller.cs" t="Include" />
               </e>
