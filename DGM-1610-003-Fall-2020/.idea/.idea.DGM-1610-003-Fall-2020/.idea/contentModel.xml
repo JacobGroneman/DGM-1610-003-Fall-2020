@@ -40,35 +40,42 @@
           </e>
           <e p="Homework" t="Include">
             <e p="Learning" t="Include">
-              <e p="NightSky (cOg Mission)" t="Include">
-                <e p="CameraFollowLook.cs" t="Include" />
-                <e p="DayNightController.cs" t="Include" />
-                <e p="ExtendedFlyCam.cs" t="Include" />
-              </e>
-              <e p="Other" t="Include">
-                <e p="IfStatementExample.cs" t="Include" />
-              </e>
-              <e p="Player Controllers" t="Include">
-                <e p="HWPlayerConroller.cs" t="Include" />
-              </e>
-              <e p="Randomization" t="Include">
-                <e p="RandomPosition.cs" t="Include" />
-              </e>
-              <e p="Unity Learn AI" t="Include">
-                <e p="Autonomously Moving Agents" t="Include">
-                  <e p="Evade" t="Include">
-                    <e p="AIBot1.cs" t="Include" />
-                  </e>
-                  <e p="Pursuit" t="Include">
-                    <e p="AIBot.cs" t="Include" />
-                    <e p="sfDrive.cs" t="Include" />
+              <e p="General Learning" t="Include">
+                <e p="Other" t="Include">
+                  <e p="IfStatementExample.cs" t="Include" />
+                </e>
+                <e p="Player Controllers" t="Include">
+                  <e p="HWPlayerConroller.cs" t="Include" />
+                </e>
+                <e p="Randomization" t="Include">
+                  <e p="RandomPosition.cs" t="Include" />
+                </e>
+                <e p="Unity Learn AI" t="Include">
+                  <e p="Autonomously Moving Agents" t="Include">
+                    <e p="Evade" t="Include">
+                      <e p="AIBot1.cs" t="Include" />
+                    </e>
+                    <e p="Pursuit" t="Include">
+                      <e p="AIBot.cs" t="Include" />
+                      <e p="sfDrive.cs" t="Include" />
+                    </e>
                   </e>
                 </e>
               </e>
+              <e p="Urania Protos" t="Include">
+                <e p="NightSky (cOg Mission)" t="Include">
+                  <e p="CameraFollowLook.cs" t="Include" />
+                  <e p="DayNightController.cs" t="Include" />
+                  <e p="ExtendedFlyCam.cs" t="Include" />
+                </e>
+                <e p="UraniaStarManager.cs" t="Include" />
+              </e>
             </e>
             <e p="Urania" t="Include">
-              <e p="Stars" t="Include">
-                <e p="UraniaStarManager.cs" t="Include" />
+              <e p="Game" t="Include">
+                <e p="Objects" t="Include">
+                  <e p="UraniaNightSky.cs" t="Include" />
+                </e>
               </e>
             </e>
           </e>
