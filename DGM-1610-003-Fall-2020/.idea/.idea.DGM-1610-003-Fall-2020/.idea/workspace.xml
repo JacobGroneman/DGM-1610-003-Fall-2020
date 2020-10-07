@@ -13,14 +13,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Prototype Driving Simulator/BusController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaNightSky.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Challenge 1 - Plane Programming/PlayerControllerX1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/85/dd4da1f9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaNightSky.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -109,7 +110,8 @@
       <workItem from="1601874569757" duration="1414000" />
       <workItem from="1601876358385" duration="216000" />
       <workItem from="1601935403149" duration="4919000" />
-      <workItem from="1602026979115" duration="6299000" />
+      <workItem from="1602026979115" duration="10114000" />
+      <workItem from="1602107881402" duration="1643000" />
     </task>
     <servers />
   </component>
@@ -133,6 +135,8 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="930" y="116" key="RiderGenerateDialog" />
+    <state x="930" y="116" key="RiderGenerateDialog/1920.1080" />
     <state x="814" y="145" width="672" height="680" key="search.everywhere.popup" />
     <state x="814" y="145" width="672" height="680" key="search.everywhere.popup/1920.1080" />
   </component>
