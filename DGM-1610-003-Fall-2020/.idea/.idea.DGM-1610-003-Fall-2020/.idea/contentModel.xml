@@ -41,6 +41,9 @@
           <e p="Homework" t="Include">
             <e p="Learning" t="Include">
               <e p="General Learning" t="Include">
+                <e p="CoRoutines" t="Include">
+                  <e p="SomeCoRoutineScript.cs" t="Include" />
+                </e>
                 <e p="Other" t="Include">
                   <e p="IfStatementExample.cs" t="Include" />
                 </e>
@@ -71,12 +74,8 @@
                 <e p="UraniaStarManager.cs" t="Include" />
               </e>
             </e>
-            <e p="Urania" t="Include">
-              <e p="Game" t="Include">
-                <e p="Objects" t="Include">
-                  <e p="UraniaNightSky.cs" t="Include" />
-                </e>
-              </e>
+            <e p="Personal Game" t="Include">
+              <e p="Personal Game Design Doc.txt" t="Include" />
             </e>
           </e>
         </e>

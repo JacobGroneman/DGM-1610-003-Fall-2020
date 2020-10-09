@@ -14,11 +14,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Prototype Driving Simulator/BusController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaNightSky.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Challenge 1 - Plane Programming/PlayerControllerX1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/85/dd4da1f9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/General Learning/CoRoutines/SomeCoRoutineScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,6 +59,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaObjectManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaNightSky.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/General Learning/CoRoutines/SomeCoRoutineScript.cs" />
       </list>
     </option>
   </component>
@@ -112,6 +113,7 @@
       <workItem from="1601935403149" duration="4919000" />
       <workItem from="1602026979115" duration="10114000" />
       <workItem from="1602107881402" duration="1643000" />
+      <workItem from="1602217217992" duration="1157000" />
     </task>
     <servers />
   </component>
@@ -137,6 +139,8 @@
   <component name="WindowStateProjectService">
     <state x="930" y="116" key="RiderGenerateDialog" />
     <state x="930" y="116" key="RiderGenerateDialog/1920.1080" />
+    <state x="779" y="85" width="636" height="660" key="find.popup" />
+    <state x="779" y="85" width="636" height="660" key="find.popup/1920.1080" />
     <state x="814" y="145" width="672" height="680" key="search.everywhere.popup" />
     <state x="814" y="145" width="672" height="680" key="search.everywhere.popup/1920.1080" />
   </component>
