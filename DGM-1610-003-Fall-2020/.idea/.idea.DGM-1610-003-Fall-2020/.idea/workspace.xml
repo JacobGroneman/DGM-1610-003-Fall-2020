@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/General Learning/CoRoutines/UserInputCoroutine.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,6 +61,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaObjectManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaNightSky.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/General Learning/CoRoutines/SomeCoRoutineScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/General Learning/CoRoutines/UserInputCoroutine.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +115,8 @@
       <workItem from="1601935403149" duration="4919000" />
       <workItem from="1602026979115" duration="10114000" />
       <workItem from="1602107881402" duration="1643000" />
-      <workItem from="1602217217992" duration="1157000" />
+      <workItem from="1602217217992" duration="1218000" />
+      <workItem from="1602303798094" duration="1729000" />
     </task>
     <servers />
   </component>

@@ -43,6 +43,7 @@
               <e p="General Learning" t="Include">
                 <e p="CoRoutines" t="Include">
                   <e p="SomeCoRoutineScript.cs" t="Include" />
+                  <e p="UserInputCoroutine.cs" t="Include" />
                 </e>
                 <e p="Other" t="Include">
                   <e p="IfStatementExample.cs" t="Include" />
