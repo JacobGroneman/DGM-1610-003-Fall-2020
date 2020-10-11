@@ -18,6 +18,15 @@
               <e p="PlayerControllerX.cs" t="Include" />
             </e>
           </e>
+          <e p="Challenge 2" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="DestroyOutOfBoundsX.cs" t="Include" />
+              <e p="DetectCollisionsX.cs" t="Include" />
+              <e p="DogPlayerControllerX.cs" t="Include" />
+              <e p="MoveForwardX.cs" t="Include" />
+              <e p="SpawnManagerX.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="Class" t="Include">
