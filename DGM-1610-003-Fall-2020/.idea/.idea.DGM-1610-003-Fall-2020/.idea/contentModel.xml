@@ -18,15 +18,6 @@
               <e p="PlayerControllerX.cs" t="Include" />
             </e>
           </e>
-          <e p="Challenge 2" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="DestroyOutOfBoundsX.cs" t="Include" />
-              <e p="DetectCollisionsX.cs" t="Include" />
-              <e p="DogPlayerControllerX.cs" t="Include" />
-              <e p="MoveForwardX.cs" t="Include" />
-              <e p="SpawnManagerX.cs" t="Include" />
-            </e>
-          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="Class" t="Include">
@@ -35,9 +26,16 @@
               <e p="PlayerControllerX1.cs" t="Include" />
               <e p="PropellerMovement.cs" t="Include" />
             </e>
-            <e p="01 - Prototype Driving Simulator" t="Include">
+            <e p="01 - Prototype 1 - Driving Simulator" t="Include">
               <e p="BusController.cs" t="Include" />
               <e p="CameraFollowBus.cs" t="Include" />
+            </e>
+            <e p="02 - Challenge 2 - Play Fetch" t="Include">
+              <e p="DestroyOutOfBoundsX.cs" t="Include" />
+              <e p="DetectCollisionsX.cs" t="Include" />
+              <e p="DogPlayerControllerX.cs" t="Include" />
+              <e p="MoveForwardX.cs" t="Include" />
+              <e p="SpawnManagerX.cs" t="Include" />
             </e>
             <e p="02 - Prototype 2 - Animal Stamped" t="Include">
               <e p="AnimalDetectCollision.cs" t="Include" />
