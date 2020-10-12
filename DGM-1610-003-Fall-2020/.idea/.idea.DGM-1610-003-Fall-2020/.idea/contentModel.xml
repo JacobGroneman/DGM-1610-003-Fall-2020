@@ -9,6 +9,9 @@
         <e p="Course Library" t="Include">
           <e p="_Source_Files" t="Include">
             <e p="_LICENSE.txt" t="Include" />
+            <e p="Materials" t="Include">
+              <e p="UnlitVertexColour_Alpha.shader" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Scenes and Challenges" t="Include">
@@ -43,6 +46,10 @@
               <e p="FoodMoveForward.cs" t="Include" />
               <e p="PlayerFarmerController.cs" t="Include" />
               <e p="SpawnManager.cs" t="Include" />
+            </e>
+            <e p="03 - Prototype 3 - Sound &amp; Effects" t="Include">
+              <e p="Unit3Obstacle.cs" t="Include" />
+              <e p="Unit3PlayerController.cs" t="Include" />
             </e>
           </e>
           <e p="Homework" t="Include">
@@ -81,9 +88,6 @@
                 </e>
                 <e p="UraniaStarManager.cs" t="Include" />
               </e>
-            </e>
-            <e p="Personal Game" t="Include">
-              <e p="Personal Game Design Doc.txt" t="Include" />
             </e>
           </e>
         </e>
