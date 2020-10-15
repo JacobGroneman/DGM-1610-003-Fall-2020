@@ -54,29 +54,28 @@
           </e>
           <e p="Homework" t="Include">
             <e p="Learning" t="Include">
-              <e p="General Learning" t="Include">
-                <e p="CoRoutines" t="Include">
-                  <e p="SomeCoRoutineScript.cs" t="Include" />
-                  <e p="UserInputCoroutine.cs" t="Include" />
-                </e>
-                <e p="Other" t="Include">
-                  <e p="IfStatementExample.cs" t="Include" />
-                </e>
-                <e p="Player Controllers" t="Include">
-                  <e p="HWPlayerConroller.cs" t="Include" />
-                </e>
-                <e p="Randomization" t="Include">
-                  <e p="RandomPosition.cs" t="Include" />
-                </e>
-                <e p="Unity Learn AI" t="Include">
-                  <e p="Autonomously Moving Agents" t="Include">
-                    <e p="Evade" t="Include">
-                      <e p="AIBot1.cs" t="Include" />
-                    </e>
-                    <e p="Pursuit" t="Include">
-                      <e p="AIBot.cs" t="Include" />
-                      <e p="sfDrive.cs" t="Include" />
-                    </e>
+              <e p="CoRoutines" t="Include">
+                <e p="SomeCoRoutineScript.cs" t="Include" />
+                <e p="UserInputCoroutine.cs" t="Include" />
+              </e>
+              <e p="If Statements" t="Include">
+                <e p="IfStatementExample.cs" t="Include" />
+              </e>
+              <e p="Player Controllers" t="Include">
+                <e p="HWPlayerConroller.cs" t="Include" />
+              </e>
+              <e p="PracticeGetComponents.cs" t="Include" />
+              <e p="Randomization" t="Include">
+                <e p="RandomPosition.cs" t="Include" />
+              </e>
+              <e p="Unity Learn AI" t="Include">
+                <e p="Autonomously Moving Agents" t="Include">
+                  <e p="Evade" t="Include">
+                    <e p="AIBot1.cs" t="Include" />
+                  </e>
+                  <e p="Pursuit" t="Include">
+                    <e p="AIBot.cs" t="Include" />
+                    <e p="sfDrive.cs" t="Include" />
                   </e>
                 </e>
               </e>
