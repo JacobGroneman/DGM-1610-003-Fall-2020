@@ -68,6 +68,7 @@
               <e p="Randomization" t="Include">
                 <e p="RandomPosition.cs" t="Include" />
               </e>
+              <e p="RayCastingPractice.cs" t="Include" />
               <e p="Unity Learn AI" t="Include">
                 <e p="Autonomously Moving Agents" t="Include">
                   <e p="Evade" t="Include">
