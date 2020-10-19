@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Bus
   - objs
+  - Ground
+  - Obstacle
   layers:
   - Default
   - TransparentFX

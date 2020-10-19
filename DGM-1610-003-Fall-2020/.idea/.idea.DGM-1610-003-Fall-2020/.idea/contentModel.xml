@@ -48,8 +48,11 @@
               <e p="SpawnManager.cs" t="Include" />
             </e>
             <e p="03 - Prototype 3 - Sound &amp; Effects" t="Include">
+              <e p="Unit3MoveLeft.cs" t="Include" />
               <e p="Unit3Obstacle.cs" t="Include" />
               <e p="Unit3PlayerController.cs" t="Include" />
+              <e p="Unit3RepeatBackground.cs" t="Include" />
+              <e p="Unit3SpawnManager.cs" t="Include" />
             </e>
           </e>
           <e p="Homework" t="Include">
