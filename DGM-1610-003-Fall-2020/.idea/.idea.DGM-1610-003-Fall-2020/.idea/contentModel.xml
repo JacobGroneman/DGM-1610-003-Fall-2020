@@ -61,17 +61,24 @@
                 <e p="SomeCoRoutineScript.cs" t="Include" />
                 <e p="UserInputCoroutine.cs" t="Include" />
               </e>
+              <e p="GetComponents" t="Include">
+                <e p="PracticeGetComponents.cs" t="Include" />
+              </e>
               <e p="If Statements" t="Include">
                 <e p="IfStatementExample.cs" t="Include" />
+              </e>
+              <e p="Loops" t="Include">
+                <e p="PracticeDoWhile.cs" t="Include" />
               </e>
               <e p="Player Controllers" t="Include">
                 <e p="HWPlayerConroller.cs" t="Include" />
               </e>
-              <e p="PracticeGetComponents.cs" t="Include" />
               <e p="Randomization" t="Include">
                 <e p="RandomPosition.cs" t="Include" />
               </e>
-              <e p="RayCastingPractice.cs" t="Include" />
+              <e p="RayCasting" t="Include">
+                <e p="RayCastingPractice.cs" t="Include" />
+              </e>
               <e p="Unity Learn AI" t="Include">
                 <e p="Autonomously Moving Agents" t="Include">
                   <e p="Evade" t="Include">
