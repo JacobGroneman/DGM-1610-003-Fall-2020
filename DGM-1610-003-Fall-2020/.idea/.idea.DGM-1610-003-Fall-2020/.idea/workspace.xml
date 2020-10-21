@@ -75,10 +75,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/RayCastingPractice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Proto3RepeatBackground.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3RepeatBackground.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3MoveLeft.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Loops/PracticeDoWhile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -139,7 +139,8 @@
       <workItem from="1602738625037" duration="654000" />
       <workItem from="1602997570333" duration="1398000" />
       <workItem from="1603145400351" duration="4229000" />
-      <workItem from="1603253498941" duration="986000" />
+      <workItem from="1603253498941" duration="1114000" />
+      <workItem from="1603318076800" duration="2189000" />
     </task>
     <servers />
   </component>

@@ -5,33 +5,34 @@ using UnityEngine;
 //Player is Floating
 public class Unit3PlayerController : MonoBehaviour
 {
+    private Animator _anim;
     private Rigidbody _rb;
     public int _jumpPower = 6;
-    public float _gravity = -9.8f;
+    public float _gravity = 9.8f;
 
     private bool _isGrounded = true;
     public bool gameOver = false;
 
     void Start()
     {
+        _anim = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody>();
         Physics.gravity *= _gravity;
     }
 
     
-    void FixedUpdate()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && _isGrounded == true)
         {
             _isGrounded = false;
             _rb.AddForce(Vector3.up * _jumpPower, ForceMode.Impulse);
+            _anim.SetTrigger("Jump_trig");
         }
     }
 
-    void OnCollisionEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
-        _isGrounded = true;
-
         if (other.gameObject.CompareTag("Ground"))
         {
             _isGrounded = true;
@@ -40,7 +41,8 @@ public class Unit3PlayerController : MonoBehaviour
         {
             gameOver = true;
             Debug.Log("GAME OVER");
-            Time.timeScale = 0;
+            _anim.SetBool("Death_b", true);
+            _anim.SetInteger("DeathType_int", 1);
         }
     }
 }
