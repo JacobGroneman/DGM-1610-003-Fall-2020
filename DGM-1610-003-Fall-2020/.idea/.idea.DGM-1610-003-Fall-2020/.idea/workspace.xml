@@ -22,9 +22,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Loops/PracticeDoWhile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptReferencer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/85/dd4da1f9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptAuthor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3MoveLeft.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -79,6 +81,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3MoveLeft.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Loops/PracticeDoWhile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptReferencer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptAuthor.cs" />
       </list>
     </option>
   </component>
@@ -88,6 +92,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,7 +145,8 @@
       <workItem from="1602997570333" duration="1398000" />
       <workItem from="1603145400351" duration="4229000" />
       <workItem from="1603253498941" duration="1114000" />
-      <workItem from="1603318076800" duration="2189000" />
+      <workItem from="1603318076800" duration="2349000" />
+      <workItem from="1603601352710" duration="592000" />
     </task>
     <servers />
   </component>
@@ -168,6 +174,8 @@
     <state x="930" y="116" key="RiderGenerateDialog/1920.1080" />
     <state x="779" y="85" width="636" height="660" key="find.popup" />
     <state x="779" y="85" width="636" height="660" key="find.popup/1920.1080" />
+    <state x="665" y="191" key="run.anything.popup" />
+    <state x="665" y="191" key="run.anything.popup/1920.1080" />
     <state x="814" y="145" width="672" height="680" key="search.everywhere.popup" />
     <state x="814" y="145" width="672" height="680" key="search.everywhere.popup/1920.1080" />
   </component>

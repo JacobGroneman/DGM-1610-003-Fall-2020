@@ -79,6 +79,10 @@
               <e p="RayCasting" t="Include">
                 <e p="RayCastingPractice.cs" t="Include" />
               </e>
+              <e p="ScriptSharing" t="Include">
+                <e p="PracticeScriptAuthor.cs" t="Include" />
+                <e p="PracticeScriptReferencer.cs" t="Include" />
+              </e>
               <e p="Unity Learn AI" t="Include">
                 <e p="Autonomously Moving Agents" t="Include">
                   <e p="Evade" t="Include">
