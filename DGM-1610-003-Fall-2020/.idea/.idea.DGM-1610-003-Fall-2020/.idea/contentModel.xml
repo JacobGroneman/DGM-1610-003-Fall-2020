@@ -61,6 +61,9 @@
                 <e p="SomeCoRoutineScript.cs" t="Include" />
                 <e p="UserInputCoroutine.cs" t="Include" />
               </e>
+              <e p="Dictionaries" t="Include">
+                <e p="PracticeDictionaryAdding.cs" t="Include" />
+              </e>
               <e p="GetComponents" t="Include">
                 <e p="PracticeGetComponents.cs" t="Include" />
               </e>

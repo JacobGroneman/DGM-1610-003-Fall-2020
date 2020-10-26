@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3RepeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Dictionaries/PracticeDictionaryAdding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Challenge 1 - Plane Programming/PlayerControllerX1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,7 +33,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/BusController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/01 - Player Movement/BusController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/01 - Player Movement/CameraFollowBus.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenge 1/Scripts/FollowPlayerX.cs" />
@@ -83,6 +83,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptReferencer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptAuthor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Dictionaries/PracticeDictionaryAdding.cs" />
       </list>
     </option>
   </component>
@@ -147,6 +148,7 @@
       <workItem from="1603253498941" duration="1114000" />
       <workItem from="1603318076800" duration="2349000" />
       <workItem from="1603601352710" duration="592000" />
+      <workItem from="1603682013678" duration="755000" />
     </task>
     <servers />
   </component>
