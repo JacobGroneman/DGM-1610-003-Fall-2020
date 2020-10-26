@@ -26,7 +26,6 @@ public class Unit3PlayerController : MonoBehaviour
         _anim = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody>();
         Physics.gravity *= _gravity;
-
         playerAudio = GetComponent<AudioSource>();
     }
 
