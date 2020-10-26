@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Unit3Obstacle : MonoBehaviour
 {
-    public float velocity;
+    public float velocity = 5;
     
     void FixedUpdate()
     {

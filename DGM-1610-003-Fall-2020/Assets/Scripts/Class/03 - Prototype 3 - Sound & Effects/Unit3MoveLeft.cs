@@ -22,6 +22,7 @@ public class Unit3MoveLeft : MonoBehaviour
         else if (_playerController.gameOver == true)
         {
             _velocity = 0;
+            transform.Translate(Vector3.left * _velocity * Time.deltaTime);
         }
         
         
