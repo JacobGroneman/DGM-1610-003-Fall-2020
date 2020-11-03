@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveLeftX : MonoBehaviour
+public class Ch3MoveLeft : MonoBehaviour
 {
     public float speed;
-    private PlayerControllerX playerControllerScript;
+    private Ch3PlayerController playerControllerScript;
     private float leftBound = -10;
 
     // Start is called before the first frame update
     void Start()
     {
-        playerControllerScript = GameObject.Find("Player").GetComponent<PlayerControllerX>();
+        playerControllerScript = GameObject.Find("Player").GetComponent<Ch3PlayerController>();
     }
 
     // Update is called once per frame
     void Update()
     {
         // If game is not over, move to the left
-        if (playerControllerScript.gameOver)
+        if (playerControllerScript.gameOver == false)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
         }

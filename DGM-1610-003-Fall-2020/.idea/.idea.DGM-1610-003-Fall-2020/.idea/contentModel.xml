@@ -21,17 +21,6 @@
               <e p="PlayerControllerX.cs" t="Include" />
             </e>
           </e>
-          <e p="Challenge 3" t="Include">
-            <e p="_Source_Files" t="Include">
-              <e p="SpinObjectsX.cs" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="MoveLeftX.cs" t="Include" />
-              <e p="PlayerControllerX.cs" t="Include" />
-              <e p="RepeatBackgroundX.cs" t="Include" />
-              <e p="SpawnManagerX.cs" t="Include" />
-            </e>
-          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="Class" t="Include">
@@ -59,11 +48,12 @@
               <e p="SpawnManager.cs" t="Include" />
             </e>
             <e p="03 - Challenge 3 -Balloons, Bombs, &amp; Booleans" t="Include">
-              <e p="MoveLeftX1.cs" t="Include" />
-              <e p="PlayerControllerX1.cs" t="Include" />
-              <e p="RepeatBackgroundX1.cs" t="Include" />
-              <e p="SpawnManagerX1.cs" t="Include" />
-              <e p="SpinObjectsX1.cs" t="Include" />
+              <e p="Ch3MoveLeft.cs" t="Include" />
+              <e p="Ch3PlayerController.cs" t="Include" />
+              <e p="Ch3RepeatBackground.cs" t="Include" />
+              <e p="Ch3SpawnManager.cs" t="Include" />
+              <e p="Ch3SpinObjects.cs" t="Include" />
+              <e p="Ch3UIManager.cs" t="Include" />
             </e>
             <e p="03 - Prototype 3 - Sound &amp; Effects" t="Include">
               <e p="Unit3MoveLeft.cs" t="Include" />

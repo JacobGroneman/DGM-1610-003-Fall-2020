@@ -15,46 +15,32 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3RepeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Dictionaries/PracticeDictionaryAdding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Challenge 1 - Plane Programming/PlayerControllerX1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/CoRoutines/PracticeSecondsTimerCoRoutine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/GetSet/PracticeGetSet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Loops/PracticeDoWhile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptReferencer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/85/dd4da1f9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptAuthor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/GetSet/PracticeGetSet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3RepeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3SpinObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3MoveLeft.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3MoveLeft.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Challenge 1/Scripts/FollowPlayerX.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/01 - Prototype Driving Simulator/BusController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Challenge 1/Scripts/PlayerControllerX.cs" />
-        <option value="$PROJECT_DIR$/Assets/PropellerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/01 - Challenge/FollowPlayerX1(1).cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/01 - Challenge/PropellerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/01 - Challenge/PlayerControllerX1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/01 - Challenge/FollowPlayerX1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/01 - Challenge 1 - Plane Programming/FollowPlayerX1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Player Controllers/HWPlayerConroller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Randomization/RandomPosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Pursuit/sfDrive.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Pursuit/AIBot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Unity Learn AI/Autonomously Moving Agents/Evade/AIBot1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/MoveForward.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/ExtendedFlyCam.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/NightSky (cOg Mission)/DayNightController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Other/IfStatementExample.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Stars/UraniaStarManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" />
@@ -86,6 +72,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/CoRoutines/PracticeSecondsTimerCoRoutine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/GetSet/PracticeGetSet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/PlayerControllerX1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/RepeatBackgroundX1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/SpinObjectsX1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/MoveLeftX1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/SpawnManagerX1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/RepeatBackgroundX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/PlayerControllerX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/SpawnManagerX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/MoveLeftX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/PlayerControllerX2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3SpinObjectsX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3SpawnManagerX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3RepeatBackgroundX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3PlayerControllerX2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3MoveLeftX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3MoveLeft.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3UIManager.cs" />
       </list>
     </option>
   </component>
@@ -154,6 +160,7 @@
       <workItem from="1603751451937" duration="3211000" />
       <workItem from="1603849446735" duration="1314000" />
       <workItem from="1604029155671" duration="565000" />
+      <workItem from="1604361101228" duration="10005000" />
     </task>
     <servers />
   </component>

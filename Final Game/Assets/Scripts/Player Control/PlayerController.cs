@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //Referencing Unity's Scripting API
+/*(Needs a Nav Mesh, Turning effects, Accelerate/Decelerate,*/  
 public class PlayerController : MonoBehaviour
 {
     public Camera _playerCamera;

@@ -2,26 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnManagerX : MonoBehaviour
+public class Ch3SpawnManager : MonoBehaviour
 {
     public GameObject[] objectPrefabs;
     private float spawnDelay = 2;
     private float spawnInterval = 1.5f;
 
-    private PlayerControllerX playerControllerScript;
+    private Ch3PlayerController playerControllerScript;
 
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("PrawnsObject", spawnDelay, spawnInterval);
-        playerControllerScript = GameObject.Find("Player").GetComponent<PlayerControllerX>();
+        InvokeRepeating("SpawnObjects", spawnDelay, spawnInterval);
+        playerControllerScript = GameObject.Find("Player").GetComponent<Ch3PlayerController>();
     }
 
     // Spawn obstacles
-    void SpawnObjects ()
+    void SpawnObjects()
     {
         // Set random spawn location and random object index
-        Vector3 spawnLocation = new Vector3(30, Random.Range(5, 15), 0);
+        Vector3 spawnLocation = new Vector3(30, Random.Range(5, 11), 0);
         int index = Random.Range(0, objectPrefabs.Length);
 
         // If game is still active, spawn new object
