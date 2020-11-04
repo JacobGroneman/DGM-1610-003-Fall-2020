@@ -65,6 +65,9 @@
           </e>
           <e p="Homework" t="Include">
             <e p="Learning" t="Include">
+              <e p="Arrays" t="Include">
+                <e p="PracticePointsArray.cs" t="Include" />
+              </e>
               <e p="CoRoutines" t="Include">
                 <e p="PracticeSecondsTimerCoRoutine.cs" t="Include" />
                 <e p="SomeCoRoutineScript.cs" t="Include" />

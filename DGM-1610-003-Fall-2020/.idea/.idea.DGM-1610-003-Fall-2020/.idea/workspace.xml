@@ -34,14 +34,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3MoveLeft.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Arrays/PracticePointsArray.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Final Game/Assets/Scripts/Player Control/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3MoveLeft.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Stars/UraniaStarManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" />
@@ -90,8 +91,9 @@
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3MoveLeft.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Arrays/PracticePointsArray.cs" />
       </list>
     </option>
   </component>
@@ -161,6 +163,8 @@
       <workItem from="1603849446735" duration="1314000" />
       <workItem from="1604029155671" duration="565000" />
       <workItem from="1604361101228" duration="10005000" />
+      <workItem from="1604388239968" duration="316000" />
+      <workItem from="1604468209261" duration="1151000" />
     </task>
     <servers />
   </component>

@@ -76,6 +76,7 @@ public class Ch3PlayerController : MonoBehaviour
         {
             fireworksParticle.Play();
             playerAudio.PlayOneShot(moneySound, 1.0f);
+            Destroy(other.gameObject);
             points++;
         }
 

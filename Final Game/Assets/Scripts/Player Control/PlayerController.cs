@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         
         translation *= Time.deltaTime;
         rotation *= Time.deltaTime;
-        
+
         if (isGrounded == true)
         {
             transform.Translate(0, 0, translation);
