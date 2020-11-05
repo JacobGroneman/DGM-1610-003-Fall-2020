@@ -18,7 +18,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/CoRoutines/PracticeSecondsTimerCoRoutine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4RotateCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Loops/PracticeDoWhile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptReferencer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/85/dd4da1f9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
@@ -43,10 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Space Objects/UraniaObjectManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/Universe.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaObject.cs" />
@@ -94,6 +93,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Arrays/PracticePointsArray.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 4 - Gameplay Mechanics/U4RotateCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4Enemy.cs" />
       </list>
     </option>
   </component>
@@ -164,7 +167,9 @@
       <workItem from="1604029155671" duration="565000" />
       <workItem from="1604361101228" duration="10005000" />
       <workItem from="1604388239968" duration="316000" />
-      <workItem from="1604468209261" duration="1151000" />
+      <workItem from="1604468209261" duration="1373000" />
+      <workItem from="1604531873200" duration="3435000" />
+      <workItem from="1604535504438" duration="24000" />
     </task>
     <servers />
   </component>

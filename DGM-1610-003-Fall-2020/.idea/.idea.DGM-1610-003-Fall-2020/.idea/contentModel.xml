@@ -62,6 +62,11 @@
               <e p="Unit3RepeatBackground.cs" t="Include" />
               <e p="Unit3SpawnManager.cs" t="Include" />
             </e>
+            <e p="04 - Prototype 4 - Gameplay Mechanics" t="Include">
+              <e p="U4AvatarController.cs" t="Include" />
+              <e p="U4Enemy.cs" t="Include" />
+              <e p="U4RotateCamera.cs" t="Include" />
+            </e>
           </e>
           <e p="Homework" t="Include">
             <e p="Learning" t="Include">
