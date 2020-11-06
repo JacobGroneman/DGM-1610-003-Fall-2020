@@ -8,6 +8,7 @@ TagManager:
   - objs
   - Ground
   - Obstacle
+  - Item
   layers:
   - Default
   - TransparentFX

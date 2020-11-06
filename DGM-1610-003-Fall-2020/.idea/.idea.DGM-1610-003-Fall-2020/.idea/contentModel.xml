@@ -90,6 +90,9 @@
               <e p="If Statements" t="Include">
                 <e p="IfStatementExample.cs" t="Include" />
               </e>
+              <e p="Instantiate" t="Include">
+                <e p="PracticeItemSelection.cs" t="Include" />
+              </e>
               <e p="Loops" t="Include">
                 <e p="PracticeDoWhile.cs" t="Include" />
               </e>

@@ -21,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4RotateCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Loops/PracticeDoWhile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Instantiate/PracticeItemSelection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptReferencer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Space Objects/UraniaObjectManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/Universe.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Urania/Game/Objects/UraniaObjectManager.cs" />
@@ -97,6 +97,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Instantiate/PracticeItemSelection.cs" />
       </list>
     </option>
   </component>
@@ -170,6 +171,7 @@
       <workItem from="1604468209261" duration="1373000" />
       <workItem from="1604531873200" duration="3435000" />
       <workItem from="1604535504438" duration="24000" />
+      <workItem from="1604628951746" duration="5364000" />
     </task>
     <servers />
   </component>
