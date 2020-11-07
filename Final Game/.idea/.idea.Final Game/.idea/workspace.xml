@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Control/CarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Control/TutorialScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -20,6 +21,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Control/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Control/CarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Control/TutorialScript.cs" />
       </list>
     </option>
   </component>
@@ -55,7 +57,7 @@
       <workItem from="1603063597670" duration="1998000" />
       <workItem from="1604199235645" duration="2149000" />
       <workItem from="1604388531591" duration="768000" />
-      <workItem from="1604726437545" duration="845000" />
+      <workItem from="1604726437545" duration="5440000" />
     </task>
     <servers />
   </component>
