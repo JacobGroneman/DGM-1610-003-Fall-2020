@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class U4RotateCamera : MonoBehaviour
 {
+    private float _rotationalVelocity = 100.0f;
     
-    public float rotationalVelocity = 50f;
-
     void Update()
     {
         #region Input
-        //Rotates camera around the Y axis
-            float horizontalInput = Input.GetAxis("Horizontal");
-            transform.Rotate(Vector3.up, horizontalInput * rotationalVelocity * Time.deltaTime);
+        //Rotates Camera
+            float inputHorizontal = Input.GetAxis("Horizontal");
+            var rotateParameters = inputHorizontal * _rotationalVelocity * Time.deltaTime;
+            transform.Rotate(Vector3.up, rotateParameters);
             #endregion
     }
 }

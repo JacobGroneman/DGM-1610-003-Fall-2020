@@ -4,26 +4,26 @@ using UnityEngine;
 
 public class U4Enemy : MonoBehaviour
 {
-    public float _velocity = 10f;
+    private float _velocity = 3.0f;
     
-    private Rigidbody _rigidbody;
+    private Rigidbody _rb;
 
-    private GameObject _avatar;
-    
+    private GameObject _player;
+
     void Start()
     {
         #region Assignment
-            _rigidbody = GetComponent<Rigidbody>();
-            _avatar = GameObject.Find("Avatar");
+            _rb = GetComponent<Rigidbody>();
+            _player = GameObject.Find("Player");
             #endregion
     }
 
     void Update()
     {
-        #region Movement
-            _rigidbody.AddForce
-                ((_avatar.transform.position - transform.position).normalized * _velocity);
+        #region A.I. Movement
+        //Enemy Seeks Player
+            Vector3 vectorPlayer = _player.transform.position - transform.position; //"Look Direction"
+            _rb.AddForce(vectorPlayer.normalized * _velocity);
             #endregion
-       
     }
 }
