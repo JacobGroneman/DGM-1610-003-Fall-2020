@@ -45,12 +45,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/If Statements/PracticeSimpleColorChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Save Files/PracticePlayerProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3MoveLeft.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 2/Scripts/DetectCollisionsX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 2/Scripts/DogPlayerControllerX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 2/Scripts/SpawnManagerX.cs" />
@@ -99,6 +99,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4RotateCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/If Statements/PracticeSimpleColorChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Save Files/PracticePlayerProfile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Save Files/PracticeSerializationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Save Files/PracticeSaveData.cs" />
       </list>
@@ -178,7 +179,8 @@
       <workItem from="1604968319064" duration="6085000" />
       <workItem from="1605074868156" duration="706000" />
       <workItem from="1605136565560" duration="4006000" />
-      <workItem from="1605244209655" duration="2121000" />
+      <workItem from="1605244209655" duration="2284000" />
+      <workItem from="1605331621808" duration="1838000" />
     </task>
     <servers />
   </component>
