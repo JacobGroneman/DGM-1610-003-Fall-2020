@@ -25,5 +25,12 @@ public class U4Enemy : MonoBehaviour
             Vector3 vectorPlayer = _player.transform.position - transform.position; //"Look Direction"
             _rb.AddForce(vectorPlayer.normalized * _velocity);
             #endregion
+
+        #region Destroy
+            if (transform.position.y < -10)
+            {
+                Destroy(this.gameObject);
+            }
+            #endregion
     }
 }
