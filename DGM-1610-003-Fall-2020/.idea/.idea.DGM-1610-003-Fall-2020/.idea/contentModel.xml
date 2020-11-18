@@ -21,6 +21,14 @@
               <e p="PlayerControllerX.cs" t="Include" />
             </e>
           </e>
+          <e p="Challenge 4" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Ch4EnemyX.cs" t="Include" />
+              <e p="Ch4PlayerControllerX.cs" t="Include" />
+              <e p="Ch4RotateCameraX.cs" t="Include" />
+              <e p="Ch4SpawnManagerX.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="Class" t="Include">
