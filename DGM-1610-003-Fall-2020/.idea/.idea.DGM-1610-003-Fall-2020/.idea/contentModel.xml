@@ -21,14 +21,6 @@
               <e p="PlayerControllerX.cs" t="Include" />
             </e>
           </e>
-          <e p="Challenge 4" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="Ch4EnemyX.cs" t="Include" />
-              <e p="Ch4PlayerControllerX.cs" t="Include" />
-              <e p="Ch4RotateCameraX.cs" t="Include" />
-              <e p="Ch4SpawnManagerX.cs" t="Include" />
-            </e>
-          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="Class" t="Include">
@@ -69,6 +61,12 @@
               <e p="Unit3PlayerController.cs" t="Include" />
               <e p="Unit3RepeatBackground.cs" t="Include" />
               <e p="Unit3SpawnManager.cs" t="Include" />
+            </e>
+            <e p="04 - Challenge 4 - Soccer Scripting" t="Include">
+              <e p="Ch4EnemyX.cs" t="Include" />
+              <e p="Ch4PlayerControllerX.cs" t="Include" />
+              <e p="Ch4RotateCameraX.cs" t="Include" />
+              <e p="Ch4SpawnManagerX.cs" t="Include" />
             </e>
             <e p="04 - Prototype 4 - Gameplay Mechanics" t="Include">
               <e p="U4AvatarController.cs" t="Include" />
