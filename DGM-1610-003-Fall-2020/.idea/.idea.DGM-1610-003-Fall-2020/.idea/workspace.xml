@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Spawning/PracticeSpawnProgression.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Switches/PracticeTrafficSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3RepeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Dictionaries/PracticeDictionaryAdding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Challenge 4 - Soccer Scripting/Ch4PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptReferencer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptAuthor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Dictionaries/PracticeDictionaryAdding.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3Obstacle.cs" />
@@ -109,6 +109,7 @@
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 4/Scripts/Ch4RotateCameraX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Spawning/PracticeSpawnProgression.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Spawning/PracticeAlien.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Switches/PracticeTrafficSwitch.cs" />
       </list>
     </option>
   </component>
@@ -191,6 +192,7 @@
       <workItem from="1605568232272" duration="2462000" />
       <workItem from="1605665374887" duration="4713000" />
       <workItem from="1605760105018" duration="2196000" />
+      <workItem from="1605854141438" duration="992000" />
     </task>
     <servers />
   </component>

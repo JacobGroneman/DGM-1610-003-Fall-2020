@@ -123,6 +123,13 @@
                 <e p="PracticeScriptAuthor.cs" t="Include" />
                 <e p="PracticeScriptReferencer.cs" t="Include" />
               </e>
+              <e p="Spawning" t="Include">
+                <e p="PracticeAlien.cs" t="Include" />
+                <e p="PracticeSpawnProgression.cs" t="Include" />
+              </e>
+              <e p="Switches" t="Include">
+                <e p="PracticeTrafficSwitch.cs" t="Include" />
+              </e>
               <e p="Unity Learn AI" t="Include">
                 <e p="Autonomously Moving Agents" t="Include">
                   <e p="Evade" t="Include">
