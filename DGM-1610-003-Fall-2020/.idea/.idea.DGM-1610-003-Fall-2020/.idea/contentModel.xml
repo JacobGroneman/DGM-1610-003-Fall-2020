@@ -105,6 +105,9 @@
               <e p="Loops" t="Include">
                 <e p="PracticeDoWhile.cs" t="Include" />
               </e>
+              <e p="Physics" t="Include">
+                <e p="PracticePhysics.cs" t="Include" />
+              </e>
               <e p="Player Controllers" t="Include">
                 <e p="HWPlayerConroller.cs" t="Include" />
               </e>
