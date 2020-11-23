@@ -99,6 +99,9 @@
                 <e p="IfStatementExample.cs" t="Include" />
                 <e p="PracticeSimpleColorChange.cs" t="Include" />
               </e>
+              <e p="Input" t="Include">
+                <e p="PracticeMouseInput.cs" t="Include" />
+              </e>
               <e p="Instantiate" t="Include">
                 <e p="PracticeItemSelection.cs" t="Include" />
               </e>
@@ -155,6 +158,9 @@
                 </e>
                 <e p="UraniaStarManager.cs" t="Include" />
               </e>
+            </e>
+            <e p="Practice Rings" t="Include">
+              <e p="RingPuzzleDraft.cs" t="Include" />
             </e>
           </e>
         </e>
