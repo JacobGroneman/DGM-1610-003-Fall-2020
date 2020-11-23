@@ -5,33 +5,33 @@ using UnityEngine;
 
 public class RingPuzzleDraft : MonoBehaviour
 {
-    public Dictionary<GameObject, int> Peg1;
-    public Dictionary<GameObject, int> Peg2;
-    public Dictionary<GameObject, int> Peg3;
-        
-    private GameObject _1Ring, _2Ring, _3Ring, _4Ring, _5Ring;
+    public List<GameObject> Peg1;
+    public List<GameObject> Peg2;
+    public List<GameObject> Peg3;
 
-    private Dictionary<GameObject, int> _heldDisk;
+    public GameObject _1Ring,_2Ring, _3Ring, _4Ring, _5Ring;
+
+    private List<GameObject> _heldDisk;
 
     void Start()
     {
         #region Initialize
-            _1Ring = GameObject.Find("Ring 1");
-            _2Ring = GameObject.Find("Ring 2");
-            _3Ring = GameObject.Find("Ring 3");
-            _4Ring = GameObject.Find("Ring 4");
-            _5Ring = GameObject.Find("Ring 5");
-    
-            Peg1.Add(_5Ring, 5);
-            Peg1.Add(_4Ring, 4);
-            Peg1.Add(_3Ring, 3);
-            Peg1.Add(_2Ring, 2);
-            Peg1.Add(_1Ring, 1); //Find a More Simple Way
-            
-            /* Initialize Disk Positions */
-            #endregion
-    }
 
+        _1Ring = GameObject.Find("Ring one");
+        _2Ring = GameObject.Find("Ring two");
+        _3Ring = GameObject.Find("Ring three");
+        _4Ring = GameObject.Find("Ring four");
+        _5Ring = GameObject.Find("Ring five");
+    
+        Peg1.Add(_5Ring);
+        Peg1.Add(_4Ring);
+        Peg1.Add(_3Ring);
+        Peg1.Add(_2Ring);
+        Peg1.Add(_1Ring);
+
+        /* Initialize Disk Positions */
+        #endregion
+    }
     void Update()
     {
         /* Click Disk
@@ -42,19 +42,22 @@ public class RingPuzzleDraft : MonoBehaviour
             HeldDisk.Disk.Transform.position == mousePosition
         }
         
-            if(!_heldDisk == null && _heldDisk.LastItem.GameObject < peg1.LastItem)
+            if(!_heldDisk == null && _heldDisk.LastItem.GameObject < peg1.LastItem 
+                || !_heldDisk == null && Peg1 == Null)
             {
                 Peg1.Add(HeldDisk.disk)
                 _HeldItem.Remove(Disk)
                 Transform the disk on top of the other one            
             }
-            Else if(!_heldDisk == null && _heldDisk.LastItem.GameObject < peg2.LastItem)
+            Else if(!_heldDisk == null && _heldDisk.LastItem.GameObject < peg2.LastItem 
+                    || !_heldDisk == null && Peg2 == Null)
             {
                 Peg2.Add(HeldDisk.disk)
                 _HeldItem.Remove(Disk)
                 Transform the disk on top of the other one            
             }
-            Else if(!_heldDisk == null && _heldDisk.LastItem.GameObject < peg3.LastItem)
+            Else if(!_heldDisk == null && _heldDisk.LastItem.GameObject < peg3.LastItem 
+                    || !_heldDisk == null && Peg3 == Null)
             {
                 Peg3.Add(HeldDisk.disk)
                 _HeldItem.Remove(Disk)

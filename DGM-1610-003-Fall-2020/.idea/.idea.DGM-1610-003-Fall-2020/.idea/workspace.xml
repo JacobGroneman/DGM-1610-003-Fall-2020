@@ -52,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Spawning/PracticeAlien.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleDraft.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/If Statements/PracticeSimpleColorChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -63,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/CoRoutines/PracticeSecondsTimerCoRoutine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/GetSet/PracticeGetSet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/PlayerControllerX1.cs" />
@@ -114,6 +114,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/other/practiceUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Input/PracticeMouseInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleDraft.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleTest.cs" />
       </list>
     </option>
   </component>
@@ -199,7 +200,7 @@
       <workItem from="1605854141438" duration="992000" />
       <workItem from="1605929943918" duration="1629000" />
       <workItem from="1606016140854" duration="952000" />
-      <workItem from="1606106858323" duration="3580000" />
+      <workItem from="1606106858323" duration="6970000" />
     </task>
     <servers />
   </component>
@@ -227,8 +228,8 @@
     <state x="930" y="116" key="RiderGenerateDialog/1920.1080" />
     <state x="779" y="85" width="636" height="660" key="find.popup" />
     <state x="779" y="85" width="636" height="660" key="find.popup/1920.1080" />
-    <state x="665" y="191" key="run.anything.popup" />
-    <state x="665" y="191" key="run.anything.popup/1920.1080" />
+    <state x="666" y="191" key="run.anything.popup" />
+    <state x="666" y="191" key="run.anything.popup/1920.1080" />
     <state x="814" y="145" width="672" height="680" key="search.everywhere.popup" />
     <state x="814" y="145" width="672" height="680" key="search.everywhere.popup/1920.1080" />
   </component>

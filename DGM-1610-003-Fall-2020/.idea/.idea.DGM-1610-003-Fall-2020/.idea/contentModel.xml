@@ -161,6 +161,7 @@
             </e>
             <e p="Practice Rings" t="Include">
               <e p="RingPuzzleDraft.cs" t="Include" />
+              <e p="RingPuzzleTest.cs" t="Include" />
             </e>
           </e>
         </e>
