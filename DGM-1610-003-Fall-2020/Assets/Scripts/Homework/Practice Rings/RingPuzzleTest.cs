@@ -1,30 +1,39 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UIElements;
+using Cursor = UnityEngine.Cursor;
 
 public class RingPuzzleTest : MonoBehaviour
 {
-    public List<GameObject> Rings;
-    public List<GameObject> PegOne;
-    public List<GameObject> PegTwo;
-    public List<GameObject> PegThree;
+    #region Variables
+    //Pegs
+        public List<GameObject> Rings;
+        public List<GameObject> PegOne;
+        public List<GameObject> PegTwo;
+        public List<GameObject> PegThree;
+    //Rings
+        public GameObject _1Ring,_2Ring, _3Ring, _4Ring, _5Ring;
+    //Held Ring
+        public List<GameObject> _heldRing;
+    //Ring Peg 1 Positions
+        private Vector3 _1RingPos = new Vector3
+            (-12, 2.99798298f, 0);
+        private Vector3 _2RingPos = new Vector3
+            (-12, 2.12836f, 0);
+        private Vector3 _3RingPos = new Vector3
+            (-12, 1.257478f, 0);
+        private Vector3 _4RingPos = new Vector3
+            (-12, 0.3917079f, 0);
+        private Vector3 _5RingPos = new Vector3
+            (-12, -0.4753096f, 0);
+        #endregion
 
-    public GameObject _1Ring,_2Ring, _3Ring, _4Ring, _5Ring;
-
-    private Vector3 _1RingPos = new Vector3
-        (-12, 2.99798298f, 0);
-    private Vector3 _2RingPos = new Vector3
-        (-12, 2.12836f, 0);
-    private Vector3 _3RingPos = new Vector3
-        (-12, 1.257478f, 0);
-    private Vector3 _4RingPos = new Vector3
-        (-12, 0.3917079f, 0);
-    private Vector3 _5RingPos = new Vector3
-        (-12, -0.4753096f, 0);
-    
-    public List<GameObject> _heldRing;
-    
     void Start()
     {
         #region Initialize
@@ -56,16 +65,32 @@ public class RingPuzzleTest : MonoBehaviour
 
     void Update()
     {
-        //Check Whether Ring is on Top
-            /*foreach (var ring in Rings)
+        HoldRing(PegOne);
+        HoldRing(PegTwo);
+        HoldRing(PegThree);
+
+        //WORK ON THIS ONE!!! (assigning obj to Mouse according to world space)
+        if (_heldRing.Count == 1)
+        {
+            _heldRing.Last().transform.position =
+                new Vector3
+                    (Input.mousePosition.x, Input.mousePosition.y, 0);
+        }
+    }
+
+    private void HoldRing(List<GameObject> peg)
+    {//Qualifies any Holding Peg's Last Ring to be Held, if none is Held
+        foreach (var ring in Rings)
+        {
+            if (peg.Count != 0 && ring == peg.Last() && _heldRing.Count == 0)
             {
-                if (ring == PegOne.Last() 
-                    || ring == PegTwo.Last()
-                    || ring == PegThree.Last())
+                if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    //If clicked on:
+                    //Transfer Ring to Held
                     _heldRing.Add(ring);
+                    peg.Remove(ring);
                 }
-            }*/
+            }
+        }
     }
 }
