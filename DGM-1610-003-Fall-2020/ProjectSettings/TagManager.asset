@@ -11,6 +11,7 @@ TagManager:
   - Item
   - Powerup
   - Enemy
+  - Disk
   layers:
   - Default
   - TransparentFX

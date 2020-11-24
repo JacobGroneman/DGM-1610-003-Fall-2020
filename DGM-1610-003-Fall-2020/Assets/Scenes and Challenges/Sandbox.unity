@@ -458,13 +458,13 @@ GameObject:
   - component: {fileID: 1044300964}
   m_Layer: 0
   m_Name: Ring three
-  m_TagString: Untagged
+  m_TagString: Disk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &1044300964
-CapsuleCollider:
+--- !u!65 &1044300964
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -473,9 +473,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 1.9999999, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &1044300965
 MeshRenderer:
@@ -534,7 +533,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044300963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 1.45, z: 0}
+  m_LocalPosition: {x: -12, y: 1.68, z: 0}
   m_LocalScale: {x: 7.161674, y: 0.43576583, z: 7.161674}
   m_Children: []
   m_Father: {fileID: 0}
@@ -646,13 +645,13 @@ GameObject:
   - component: {fileID: 1121602803}
   m_Layer: 0
   m_Name: Ring one
-  m_TagString: Untagged
+  m_TagString: Disk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &1121602803
-CapsuleCollider:
+--- !u!65 &1121602803
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -661,9 +660,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 1.9999999, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &1121602804
 MeshRenderer:
@@ -722,7 +720,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121602802}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 3.25, z: 0}
+  m_LocalPosition: {x: -12, y: 3.69, z: 0}
   m_LocalScale: {x: 3.161674, y: 0.43576583, z: 3.161674}
   m_Children: []
   m_Father: {fileID: 0}
@@ -824,6 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2e7f1c2964d92744ab45aa5567e5af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  disks: []
   Peg1: []
   Peg2: []
   Peg3: []
@@ -942,13 +941,13 @@ GameObject:
   - component: {fileID: 1720841511}
   m_Layer: 0
   m_Name: Ring five
-  m_TagString: Untagged
+  m_TagString: Disk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &1720841511
-CapsuleCollider:
+--- !u!65 &1720841511
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -957,10 +956,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.9999999, z: 1.0000001}
+  m_Center: {x: 0.00000005960464, y: 0, z: -0.00000008940696}
 --- !u!23 &1720841512
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1018,8 +1016,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720841510}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -0.37999988, z: 0}
-  m_LocalScale: {x: 11.161674, y: 0.43576583, z: 11.161674}
+  m_LocalPosition: {x: -12, y: -0.29000002, z: 0}
+  m_LocalScale: {x: 11.00887, y: 0.43576583, z: 11.161674}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -1038,13 +1036,13 @@ GameObject:
   - component: {fileID: 1737197505}
   m_Layer: 0
   m_Name: Ring four
-  m_TagString: Untagged
+  m_TagString: Disk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &1737197505
-CapsuleCollider:
+--- !u!65 &1737197505
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1053,9 +1051,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 1.9999999, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &1737197506
 MeshRenderer:
@@ -1114,7 +1111,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737197504}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 0.54999995, z: 0}
+  m_LocalPosition: {x: -12, y: 0.71999997, z: 0}
   m_LocalScale: {x: 9.1616745, y: 0.43576583, z: 9.1616745}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1134,13 +1131,13 @@ GameObject:
   - component: {fileID: 1955688268}
   m_Layer: 0
   m_Name: Ring two
-  m_TagString: Untagged
+  m_TagString: Disk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &1955688268
-CapsuleCollider:
+--- !u!65 &1955688268
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1149,9 +1146,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 1.9999999, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &1955688269
 MeshRenderer:
@@ -1210,7 +1206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955688267}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 2.37, z: 0}
+  m_LocalPosition: {x: -12, y: 2.67, z: 0}
   m_LocalScale: {x: 5.161674, y: 0.43576583, z: 5.161674}
   m_Children: []
   m_Father: {fileID: 0}
