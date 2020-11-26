@@ -12,39 +12,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Spawning/PracticeSpawnProgression.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Switches/PracticeTrafficSwitch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3RepeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Dictionaries/PracticeDictionaryAdding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Challenge 4 - Soccer Scripting/Ch4PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Challenge 4 - Soccer Scripting/Ch4EnemyX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/01 - Challenge 1 - Plane Programming/PlayerControllerX1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/CoRoutines/PracticeSecondsTimerCoRoutine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4RotateCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Loops/PracticeDoWhile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Instantiate/PracticeItemSelection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptReferencer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/85/dd4da1f9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Input/PracticeMouseInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Save Files/PracticeSaveData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptAuthor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/other/practiceUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Physics/PracticePhysics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/GetSet/PracticeGetSet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3RepeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3SpinObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3MoveLeft.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Save Files/PracticeSerializationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,19 +40,31 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Spawning/PracticeAlien.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleDraft.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3UIManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/If Statements/PracticeSimpleColorChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Challenge 4 - Soccer Scripting/Ch4SpawnManagerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Save Files/PracticePlayerProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3MoveLeft.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Spawning/PracticeSpawnProgression.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3RepeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/CoRoutines/PracticeSecondsTimerCoRoutine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4RotateCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Instantiate/PracticeItemSelection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/85/dd4da1f9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/PracticeClickDrag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Save Files/PracticeSaveData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/If Statements/PracticeSimpleColorChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Challenge 4 - Soccer Scripting/Ch4SpawnManagerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Challenge 4 - Soccer Scripting/Ch4RotateCameraX.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/CoRoutines/PracticeSecondsTimerCoRoutine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/GetSet/PracticeGetSet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/PlayerControllerX1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/RepeatBackgroundX1.cs" />
@@ -115,6 +115,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Input/PracticeMouseInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleDraft.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/PracticeClickDrag.cs" />
       </list>
     </option>
   </component>
@@ -202,6 +203,7 @@
       <workItem from="1606016140854" duration="952000" />
       <workItem from="1606106858323" duration="6970000" />
       <workItem from="1606186637610" duration="11384000" />
+      <workItem from="1606358652805" duration="2008000" />
     </task>
     <servers />
   </component>
