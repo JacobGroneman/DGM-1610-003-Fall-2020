@@ -456,6 +456,7 @@ GameObject:
   - component: {fileID: 1044300966}
   - component: {fileID: 1044300965}
   - component: {fileID: 1044300964}
+  - component: {fileID: 1044300968}
   m_Layer: 0
   m_Name: Ring three
   m_TagString: Disk
@@ -539,6 +540,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1044300968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044300963}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff702bf867af1e94794502f2b7520892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1059027435
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +656,7 @@ GameObject:
   - component: {fileID: 1121602805}
   - component: {fileID: 1121602804}
   - component: {fileID: 1121602803}
+  - component: {fileID: 1121602807}
   m_Layer: 0
   m_Name: Ring one
   m_TagString: Disk
@@ -726,6 +740,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1121602807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121602802}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff702bf867af1e94794502f2b7520892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1253747044
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +763,7 @@ GameObject:
   - component: {fileID: 1253747047}
   - component: {fileID: 1253747046}
   - component: {fileID: 1253747045}
+  - component: {fileID: 1253747048}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -809,6 +836,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 13.07, y: 0, z: 0}
+--- !u!114 &1253747048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253747044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d818c8aae0ae046b8236b6afb45d72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rings: []
+  PegOne: []
+  PegTwo: []
+  PegThree: []
+  _1Ring: {fileID: 0}
+  _2Ring: {fileID: 0}
+  _3Ring: {fileID: 0}
+  _4Ring: {fileID: 0}
+  _5Ring: {fileID: 0}
+  _heldRing: []
 --- !u!1 &1382791826
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,6 +966,7 @@ GameObject:
   - component: {fileID: 1720841513}
   - component: {fileID: 1720841512}
   - component: {fileID: 1720841511}
+  - component: {fileID: 1720841515}
   m_Layer: 0
   m_Name: Ring five
   m_TagString: Disk
@@ -1000,6 +1050,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1720841515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720841510}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff702bf867af1e94794502f2b7520892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1737197504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +1074,7 @@ GameObject:
   - component: {fileID: 1737197507}
   - component: {fileID: 1737197506}
   - component: {fileID: 1737197505}
+  - component: {fileID: 1737197509}
   m_Layer: 0
   m_Name: Ring four
   m_TagString: Disk
@@ -1095,6 +1158,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1737197509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737197504}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff702bf867af1e94794502f2b7520892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1955688267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,6 +1182,7 @@ GameObject:
   - component: {fileID: 1955688270}
   - component: {fileID: 1955688269}
   - component: {fileID: 1955688268}
+  - component: {fileID: 1955688272}
   m_Layer: 0
   m_Name: Ring two
   m_TagString: Disk
@@ -1190,3 +1266,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1955688272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955688267}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff702bf867af1e94794502f2b7520892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -32,8 +32,6 @@ public class RingPuzzleDraft : MonoBehaviour
             (-12, 0.3917079f, 0);
         private Vector3 _5RingPos = new Vector3
             (-12, -0.4753096f, 0);
-    //Click Variables
-        
         #endregion
 
     void Start()
@@ -67,21 +65,22 @@ public class RingPuzzleDraft : MonoBehaviour
 
     void Update()
     {
-        HoldRing(PegOne);
-        HoldRing(PegTwo);
-        HoldRing(PegThree);
+        RingInteract(PegOne);
+        RingInteract(PegTwo);
+        RingInteract(PegThree);
     }
 
-    private void HoldRing(List<GameObject> peg)
+    private void RingInteract(List<GameObject> peg)
     {//Qualifies any Holding Peg's Last Ring to be Held, if none is Held
         foreach (var ring in Rings)
         {
             if (peg.Count != 0 && ring == peg.Last() && _heldRing.Count == 0)
-            {
+            { 
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
-                    _heldRing.Add(ring);
-                    peg.Remove(ring);
+                        ring.GetComponent<HoldItem>().enabled = true;
+                        _heldRing.Add(ring);
+                        peg.Remove(ring);
                 }
             }
         }
