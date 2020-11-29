@@ -83,12 +83,12 @@ public class RingPuzzleTest : MonoBehaviour
         foreach (var ring in Rings)
         {
             if (peg.Count != 0 && ring == peg.Last() && _heldRing.Count == 0)
-            {
+            { 
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     //Transfer Ring to Held
-                    _heldRing.Add(ring);
-                    peg.Remove(ring);
+                        _heldRing.Add(ring);
+                        peg.Remove(ring);
                 }
             }
         }
