@@ -1,88 +1,33 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.UIElements;
-using Cursor = UnityEngine.Cursor;
 
 public class RingPuzzleDraft : MonoBehaviour
 {
-    #region Variables
-    //Pegs
-        public List<GameObject> Rings;
-        public List<GameObject> PegOne;
-        public List<GameObject> PegTwo;
-        public List<GameObject> PegThree;
-    //Rings
-        public GameObject _1Ring,_2Ring, _3Ring, _4Ring, _5Ring;
-    //Held Ring
-        public List<GameObject> _heldRing;
-    //Ring Peg 1 Positions
-        private Vector3 _1RingPos = new Vector3
-            (-12, 2.99798298f, 0);
-        private Vector3 _2RingPos = new Vector3
-            (-12, 2.12836f, 0);
-        private Vector3 _3RingPos = new Vector3
-            (-12, 1.257478f, 0);
-        private Vector3 _4RingPos = new Vector3
-            (-12, 0.3917079f, 0);
-        private Vector3 _5RingPos = new Vector3
-            (-12, -0.4753096f, 0);
-        #endregion
+    public GameObject Peg1, Peg2, Peg3;
+    public GameObject Disk1, Disk2, Disk3, Disk4, Disk5;
+    public List<GameObject> HeldDisk;
 
     void Start()
     {
-        #region Initialize
-        //Assigns Rings to Variables
-            _1Ring = GameObject.Find("Ring one");
-            _2Ring = GameObject.Find("Ring two");
-            _3Ring = GameObject.Find("Ring three");
-            _4Ring = GameObject.Find("Ring four");
-            _5Ring = GameObject.Find("Ring five");
-        //Sets Ring Positions
-            _1Ring.transform.position = _1RingPos;
-            _2Ring.transform.position = _2RingPos;
-            _3Ring.transform.position = _3RingPos;
-            _4Ring.transform.position = _4RingPos;
-            _5Ring.transform.position = _5RingPos;
-        //Adds Rings to Peg 1
-            PegOne.Add(_5Ring);
-            PegOne.Add(_4Ring);
-            PegOne.Add(_3Ring);
-            PegOne.Add(_2Ring);
-            PegOne.Add(_1Ring);
-        //Adds Rings to Rings List for operations
-            foreach (var ring in PegOne)
-            {
-                Rings.Add(ring);
-            }
-            #endregion
-    }
+        Peg1 = GameObject.Find("Peg 1");
+        Peg2 = GameObject.Find("Peg 2");
+        Peg3 = GameObject.Find("Peg 3");
 
+        Disk1 = GameObject.Find("Disk one");
+        Disk2 = GameObject.Find("Disk two");
+        Disk3 = GameObject.Find("Disk three");
+        Disk4 = GameObject.Find("Disk four");
+        Disk5 = GameObject.Find("Disk five");
+
+        Peg1.GetComponent<Peg>().Disks.Add(Disk5);
+        Peg1.GetComponent<Peg>().Disks.Add(Disk4);
+        Peg1.GetComponent<Peg>().Disks.Add(Disk3);
+        Peg1.GetComponent<Peg>().Disks.Add(Disk2);
+        Peg1.GetComponent<Peg>().Disks.Add(Disk1);
+    }
     void Update()
     {
-        RingInteract(PegOne);
-        RingInteract(PegTwo);
-        RingInteract(PegThree);
-    }
-
-    private void RingInteract(List<GameObject> peg)
-    {//Qualifies any Holding Peg's Last Ring to be Held, if none is Held
-        foreach (var ring in Rings)
-        {
-            if (peg.Count != 0 && ring == peg.Last() && _heldRing.Count == 0)
-            { 
-                if (Input.GetKeyDown(KeyCode.Mouse0))
-                {
-                        ring.GetComponent<HoldItem>().enabled = true;
-                        _heldRing.Add(ring);
-                        peg.Remove(ring);
-                }
-            }
-        }
+        
     }
 }

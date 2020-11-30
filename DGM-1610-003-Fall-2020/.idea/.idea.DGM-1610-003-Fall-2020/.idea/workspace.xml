@@ -46,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3MoveLeft.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Spawning/PracticeSpawnProgression.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3RepeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzle/Peg.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/CoRoutines/PracticeSecondsTimerCoRoutine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4RotateCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Instantiate/PracticeItemSelection.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/SpinObjectsX1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/MoveLeftX1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/SpawnManagerX1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/RepeatBackgroundX.cs" />
@@ -110,11 +110,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Physics/PracticePhysics.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/other/practiceUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Input/PracticeMouseInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/PracticeClickDrag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/PracticeClicks.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/Clicks/Cahlik.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/Clicks/HoldItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzle/Peg.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleDraft.cs" />
       </list>
     </option>
@@ -206,7 +207,9 @@
       <workItem from="1606358652805" duration="2008000" />
       <workItem from="1606536439219" duration="4021000" />
       <workItem from="1606625900713" duration="223000" />
-      <workItem from="1606628188284" duration="5792000" />
+      <workItem from="1606628188284" duration="5966000" />
+      <workItem from="1606696371112" duration="7264000" />
+      <workItem from="1606706750890" duration="1842000" />
     </task>
     <servers />
   </component>

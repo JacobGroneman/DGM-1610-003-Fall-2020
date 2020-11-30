@@ -12,6 +12,7 @@ TagManager:
   - Powerup
   - Enemy
   - Disk
+  - Peg
   layers:
   - Default
   - TransparentFX

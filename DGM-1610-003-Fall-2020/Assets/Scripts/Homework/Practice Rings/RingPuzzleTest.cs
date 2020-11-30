@@ -65,28 +65,20 @@ public class RingPuzzleTest : MonoBehaviour
 
     void Update()
     {
-        HoldRing(PegOne);
-        HoldRing(PegTwo);
-        HoldRing(PegThree);
-
-        //WORK ON THIS ONE!!! (assigning obj to Mouse according to world space)
-        if (_heldRing.Count == 1)
-        {
-            _heldRing.Last().transform.position =
-                new Vector3
-                    (Input.mousePosition.x, Input.mousePosition.y, 0);
-        }
+        RingInteract(PegOne);
+        RingInteract(PegTwo);
+        RingInteract(PegThree);
     }
 
-    private void HoldRing(List<GameObject> peg)
+    private void RingInteract(List<GameObject> peg)
     {//Qualifies any Holding Peg's Last Ring to be Held, if none is Held
         foreach (var ring in Rings)
         {
             if (peg.Count != 0 && ring == peg.Last() && _heldRing.Count == 0)
             { 
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
-                    //Transfer Ring to Held
+                        ring.GetComponent<HoldItem>().enabled = true;
                         _heldRing.Add(ring);
                         peg.Remove(ring);
                 }
