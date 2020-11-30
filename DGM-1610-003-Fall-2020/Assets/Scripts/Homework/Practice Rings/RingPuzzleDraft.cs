@@ -28,6 +28,27 @@ public class RingPuzzleDraft : MonoBehaviour
     }
     void Update()
     {
-        
+        OnGameWinning();
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            Peg1.GetComponent<Peg>().OnClickPeg();
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Peg2.GetComponent<Peg>().OnClickPeg();
+        }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            Peg3.GetComponent<Peg>().OnClickPeg();
+        }
+    }
+
+    void OnGameWinning()
+    {
+        if (Peg3.GetComponent<Peg>().Disks.Count == 5)
+        {
+            Debug.Log("You Won the Game");
+        }
     }
 }

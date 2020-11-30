@@ -28,6 +28,8 @@ public class Peg : MonoBehaviour
     void Update()
     {
         DiskPlacement();
+        
+        //RayCastHit
     }
 
     void DiskPlacement()
@@ -49,10 +51,20 @@ public class Peg : MonoBehaviour
         }
         else if (_gameManager.HeldDisk.Count != 0)
         {
-            
-            _gameManager.HeldDisk.Last().GetComponent<HoldItem>().enabled = false;
-            Disks.Add(_gameManager.HeldDisk.Last());
-            _gameManager.HeldDisk.Remove(_gameManager.HeldDisk.Last());
+            //If Held Disk is Smaller than Peg.Last
+            if (Disks.Count == 0)
+            {
+                _gameManager.HeldDisk.Last().GetComponent<HoldItem>().enabled = false;
+                Disks.Add(_gameManager.HeldDisk.Last());
+                _gameManager.HeldDisk.Remove(_gameManager.HeldDisk.Last());
+            }
+            else if (Disks.Count != 0 &&_gameManager.HeldDisk.Last().transform.lossyScale.x < 
+                                     Disks.Last().transform.lossyScale.x)
+            {
+                _gameManager.HeldDisk.Last().GetComponent<HoldItem>().enabled = false;
+                Disks.Add(_gameManager.HeldDisk.Last());
+                _gameManager.HeldDisk.Remove(_gameManager.HeldDisk.Last());
+            }
         }
     }
 }
