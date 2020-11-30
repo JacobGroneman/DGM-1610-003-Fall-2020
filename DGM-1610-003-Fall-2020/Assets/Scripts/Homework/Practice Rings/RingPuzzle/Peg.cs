@@ -28,8 +28,6 @@ public class Peg : MonoBehaviour
     void Update()
     {
         DiskPlacement();
-        
-        //RayCastHit
     }
 
     void DiskPlacement()
@@ -40,31 +38,38 @@ public class Peg : MonoBehaviour
         Disks[3].transform.position = new Vector3(PegPos.x, YPos4, PegPos.z);
         Disks[4].transform.position = new Vector3(PegPos.x, YPos5, PegPos.z);
     }
-
-    public void OnClickPeg()
+    
+    public void HoldDropDisk()
     {
         if (_gameManager.HeldDisk.Count == 0)
         {
-            Disks.Last().GetComponent<HoldItem>().enabled = true;
-            _gameManager.HeldDisk.Add(Disks.Last());
-            Disks.Remove(Disks.Last());
+            HoldDisk();
         }
         else if (_gameManager.HeldDisk.Count != 0)
         {
             //If Held Disk is Smaller than Peg.Last
             if (Disks.Count == 0)
             {
-                _gameManager.HeldDisk.Last().GetComponent<HoldItem>().enabled = false;
-                Disks.Add(_gameManager.HeldDisk.Last());
-                _gameManager.HeldDisk.Remove(_gameManager.HeldDisk.Last());
+                DropDisk();
             }
             else if (Disks.Count != 0 &&_gameManager.HeldDisk.Last().transform.lossyScale.x < 
                                      Disks.Last().transform.lossyScale.x)
             {
-                _gameManager.HeldDisk.Last().GetComponent<HoldItem>().enabled = false;
-                Disks.Add(_gameManager.HeldDisk.Last());
-                _gameManager.HeldDisk.Remove(_gameManager.HeldDisk.Last());
+                DropDisk();
             }
         }
+    }
+    private void HoldDisk()
+    {
+        Disks.Last().GetComponent<HoldItem>().enabled = true;
+        _gameManager.HeldDisk.Add(Disks.Last());
+        Disks.Remove(Disks.Last());
+    }
+
+    private void DropDisk()
+    {
+        _gameManager.HeldDisk.Last().GetComponent<HoldItem>().enabled = false;
+        Disks.Add(_gameManager.HeldDisk.Last());
+        _gameManager.HeldDisk.Remove(_gameManager.HeldDisk.Last());
     }
 }

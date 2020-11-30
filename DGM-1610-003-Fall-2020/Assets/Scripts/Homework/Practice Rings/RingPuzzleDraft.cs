@@ -32,16 +32,20 @@ public class RingPuzzleDraft : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.S))
         {
-            Peg1.GetComponent<Peg>().OnClickPeg();
+            Peg1.GetComponent<Peg>().HoldDropDisk();
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Peg2.GetComponent<Peg>().OnClickPeg();
+            Peg2.GetComponent<Peg>().HoldDropDisk();
         }
         if (Input.GetKeyDown(KeyCode.F))
         {
-            Peg3.GetComponent<Peg>().OnClickPeg();
+            Peg3.GetComponent<Peg>().HoldDropDisk();
         }
+        
+        ClickPeg(Peg1);
+        ClickPeg(Peg2);
+        ClickPeg(Peg3);
     }
 
     void OnGameWinning()
@@ -51,4 +55,21 @@ public class RingPuzzleDraft : MonoBehaviour
             Debug.Log("You Won the Game");
         }
     }
+    
+    void ClickPeg(GameObject clickedPeg)
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit))
+            {
+                if (hit.transform.gameObject == clickedPeg)
+                {
+                    clickedPeg.GetComponent<Peg>().HoldDropDisk();
+                }
+            }
+        }
+    }
 }
+
