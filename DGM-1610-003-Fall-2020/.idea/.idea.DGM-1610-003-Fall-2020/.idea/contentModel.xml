@@ -12,6 +12,29 @@
             <e p="Materials" t="Include">
               <e p="UnlitVertexColour_Alpha.shader" t="Include" />
             </e>
+            <e p="Scripts" t="Include">
+              <e p="DestroyAfterDelay.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Fonts" t="Include">
+            <e p="Baloo_Chettan" t="Include">
+              <e p="OFL.txt" t="Include" />
+            </e>
+            <e p="Exo_2" t="Include">
+              <e p="OFL.txt" t="Include" />
+            </e>
+            <e p="Indie_Flower" t="Include">
+              <e p="OFL.txt" t="Include" />
+            </e>
+            <e p="Margarine" t="Include">
+              <e p="OFL.txt" t="Include" />
+            </e>
+            <e p="Oswald" t="Include">
+              <e p="OFL.txt" t="Include" />
+            </e>
+            <e p="Roboto_Condensed" t="Include">
+              <e p="LICENSE.txt" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Scenes and Challenges" t="Include">
@@ -74,6 +97,10 @@
               <e p="U4PlayerController.cs" t="Include" />
               <e p="U4RotateCamera.cs" t="Include" />
               <e p="U4SpawnManager.cs" t="Include" />
+            </e>
+            <e p="05 - Prototype 5 - User Interface" t="Include">
+              <e p="U5Manager.cs" t="Include" />
+              <e p="U5Target.cs" t="Include" />
             </e>
           </e>
           <e p="Homework" t="Include">

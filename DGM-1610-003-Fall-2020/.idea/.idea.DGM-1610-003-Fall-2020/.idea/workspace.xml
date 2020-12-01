@@ -20,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Loops/PracticeDoWhile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Target.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/ScriptSharing/PracticeScriptReferencer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Input/PracticeMouseInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,6 +56,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/85/dd4da1f9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Save Files/PracticeSaveData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleTest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,8 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/MoveLeftX1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/SpawnManagerX1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/RepeatBackgroundX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/PlayerControllerX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/SpawnManagerX.cs" />
@@ -117,6 +117,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/Clicks/HoldItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzle/Peg.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleDraft.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Target.cs" />
       </list>
     </option>
   </component>
@@ -210,6 +212,7 @@
       <workItem from="1606628188284" duration="5966000" />
       <workItem from="1606696371112" duration="7264000" />
       <workItem from="1606706750890" duration="14716000" />
+      <workItem from="1606780390210" duration="2433000" />
     </task>
     <servers />
   </component>
