@@ -2,15 +2,27 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using  TMPro;
+using UnityEngine.UI;
 
 public class U5Manager : MonoBehaviour
 {
-    public List<GameObject> Targets;
-
-    private float _spawnInterval = 1.0f;
+    //Targets
+        public List<GameObject> Targets;
+        private float _spawnInterval = 1.0f;
+    //Score
+        private int _score;
+        public TextMeshProUGUI ScoreText;
 
     void Start()
     {
+        #region Setting GUI
+            ScoreText = GameObject.Find("Score Text")
+                .GetComponent<TextMeshProUGUI>();
+            _score = 0;
+            ScoreUpdate(0);
+            #endregion
+        
         StartCoroutine(SpawnTarget());
     }
 
@@ -22,8 +34,13 @@ public class U5Manager : MonoBehaviour
             
             int index = Random.Range(0, Targets.Count);
             Instantiate(Targets[index]);
-            
-            //yield break;
         }
     }
+
+    public void ScoreUpdate(int scoreToAdd)
+    {
+        _score += scoreToAdd;
+        ScoreText.text = "Score: " + _score;
+    }
+    
 }
