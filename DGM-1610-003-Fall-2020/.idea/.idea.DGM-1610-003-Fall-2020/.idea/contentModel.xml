@@ -99,6 +99,7 @@
               <e p="U4SpawnManager.cs" t="Include" />
             </e>
             <e p="05 - Prototype 5 - User Interface" t="Include">
+              <e p="U5LevelDifficulty.cs" t="Include" />
               <e p="U5Manager.cs" t="Include" />
               <e p="U5Target.cs" t="Include" />
             </e>

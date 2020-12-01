@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class U5Target : MonoBehaviour
-{
-    private float
-        _minVelocity = 12, _maxVelocity = 16,
-        _maxTorque = 10,
-        _xRange = 4, _ySPawnPos = 6;
-
-    public int PointValue;
-    
-    private Rigidbody _rb;
-    public ParticleSystem ExplosionParticle;
-
-    private U5Manager _gameManager;
+{ 
+    //Attitude
+        private float
+            _minVelocity = 12, _maxVelocity = 16,
+            _maxTorque = 10,
+            _xRange = 4, _ySPawnPos = 6; 
+    //Value
+        public int PointValue; 
+    //Components
+        private Rigidbody _rb;
+        public ParticleSystem ExplosionParticle;
+    //External
+        private U5Manager _gameManager;
 
     void Start()
     {
@@ -32,35 +33,36 @@ public class U5Target : MonoBehaviour
             #endregion
     }
 
-    void Update()
-    {
-        
-    }
-
     #region Interacting
         void OnMouseDown()
         {
-            if (_gameManager.IsGameActive)
+            //Good Targets
+                if (_gameManager.IsGameActive)
+                {
+                    Destroy(gameObject);
+                    Instantiate
+                        (ExplosionParticle, transform.position, ExplosionParticle.transform.rotation);
+                    _gameManager.UpdateScore(PointValue);
+                } 
+            //Skull
+                if (gameObject.CompareTag("Bad"))
+                {
+                    _gameManager.GameOver();
+                }
+        }
+        //Out-of-Bounds Behavior
+            private void OnTriggerEnter(Collider other)
             {
                 Destroy(gameObject);
-                Instantiate
-                    (ExplosionParticle, transform.position, ExplosionParticle.transform.rotation);
-                _gameManager.UpdateScore(PointValue);
+                
+                if (!gameObject.CompareTag("Bad"))
+                {
+                    _gameManager.GameOver();
+                }
             }
-        }
-    
-        private void OnTriggerEnter(Collider other)
-        {
-            Destroy(gameObject);
-            
-            if (!gameObject.CompareTag("Bad"))
-            {
-                _gameManager.GameOver();
-            }
-        }
-        #endregion
+            #endregion
 
-    #region Attitudes
+    #region Attitude
          Vector3 RandomSpawnPos()
          {
              return new Vector3(Random.Range(-_xRange, _xRange), _ySPawnPos);

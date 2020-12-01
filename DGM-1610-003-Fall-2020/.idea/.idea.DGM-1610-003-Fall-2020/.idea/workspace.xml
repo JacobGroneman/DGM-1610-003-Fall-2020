@@ -51,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/CoRoutines/PracticeSecondsTimerCoRoutine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4RotateCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Instantiate/PracticeItemSelection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5LevelDifficulty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 1/Scripts/PlayerControllerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/85/dd4da1f9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
@@ -68,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/RepeatBackgroundX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/PlayerControllerX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/SpawnManagerX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/MoveLeftX.cs" />
@@ -118,6 +118,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzle/Peg.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleDraft.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Target.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5LevelDifficulty.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Manager.cs" />
       </list>
     </option>
@@ -212,7 +213,7 @@
       <workItem from="1606628188284" duration="5966000" />
       <workItem from="1606696371112" duration="7264000" />
       <workItem from="1606706750890" duration="14716000" />
-      <workItem from="1606780390210" duration="9544000" />
+      <workItem from="1606780390210" duration="13124000" />
     </task>
     <servers />
   </component>
