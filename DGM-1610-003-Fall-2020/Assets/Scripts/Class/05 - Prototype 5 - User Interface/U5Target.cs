@@ -12,14 +12,14 @@ public class U5Target : MonoBehaviour
     public int PointValue;
     
     private Rigidbody _rb;
-    private ParticleSystem _explosionParticle;
+    public ParticleSystem ExplosionParticle;
 
     private U5Manager _gameManager;
 
     void Start()
     {
         #region Initializing
-            _gameManager = GameObject.Find("Game Manager")
+        _gameManager = GameObject.Find("Game Manager")
                 .GetComponent<U5Manager>();
                 #endregion
                 
@@ -40,15 +40,23 @@ public class U5Target : MonoBehaviour
     #region Interacting
         void OnMouseDown()
         {
-            Destroy(gameObject);
-            Instantiate
-                (_explosionParticle, transform.position, _explosionParticle.transform.rotation);
-            _gameManager.ScoreUpdate(PointValue);
+            if (_gameManager.IsGameActive)
+            {
+                Destroy(gameObject);
+                Instantiate
+                    (ExplosionParticle, transform.position, ExplosionParticle.transform.rotation);
+                _gameManager.UpdateScore(PointValue);
+            }
         }
     
         private void OnTriggerEnter(Collider other)
         {
             Destroy(gameObject);
+            
+            if (!gameObject.CompareTag("Bad"))
+            {
+                _gameManager.GameOver();
+            }
         }
         #endregion
 

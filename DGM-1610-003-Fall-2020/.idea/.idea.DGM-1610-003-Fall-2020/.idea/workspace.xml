@@ -117,8 +117,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/Clicks/HoldItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzle/Peg.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleDraft.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Target.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Manager.cs" />
       </list>
     </option>
   </component>
@@ -212,7 +212,7 @@
       <workItem from="1606628188284" duration="5966000" />
       <workItem from="1606696371112" duration="7264000" />
       <workItem from="1606706750890" duration="14716000" />
-      <workItem from="1606780390210" duration="4727000" />
+      <workItem from="1606780390210" duration="9544000" />
     </task>
     <servers />
   </component>

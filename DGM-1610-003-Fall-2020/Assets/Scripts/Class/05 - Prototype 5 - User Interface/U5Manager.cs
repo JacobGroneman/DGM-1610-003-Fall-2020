@@ -2,25 +2,35 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using  TMPro;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using  TMPro;
+
 
 public class U5Manager : MonoBehaviour
 {
+    public bool IsGameActive;
+
     //Targets
         public List<GameObject> Targets;
         private float _spawnInterval = 1.0f;
     //Score
         private int _score;
-        public TextMeshProUGUI ScoreText;
+        private TextMeshProUGUI _scoreText;
+    //Game Over
+        public TextMeshProUGUI GameOverText;
+        public Button RestartButton;
 
-    void Start()
+        void Start()
     {
+        IsGameActive = true;
+        
         #region Setting GUI
-            ScoreText = GameObject.Find("Score Text")
+        //Score
+            _scoreText = GameObject.Find("Score Text")
                 .GetComponent<TextMeshProUGUI>();
             _score = 0;
-            ScoreUpdate(0);
+            UpdateScore(0);
             #endregion
         
         StartCoroutine(SpawnTarget());
@@ -28,7 +38,7 @@ public class U5Manager : MonoBehaviour
 
     IEnumerator SpawnTarget()
     {
-        while (true)
+        while (IsGameActive)
         {
             yield return new WaitForSeconds(_spawnInterval);
             
@@ -37,10 +47,23 @@ public class U5Manager : MonoBehaviour
         }
     }
 
-    public void ScoreUpdate(int scoreToAdd)
+    public void UpdateScore(int scoreToAdd)
     {
         _score += scoreToAdd;
-        ScoreText.text = "Score: " + _score;
+        _scoreText.text = "Score: " + _score;
     }
+
+    #region Postal
+        public void GameOver()
+        {
+            RestartButton.gameObject.SetActive(true);
+            GameOverText.gameObject.SetActive(true);
+            IsGameActive = false;
+        }
     
+        public void RestartGame()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        #endregion
 }
