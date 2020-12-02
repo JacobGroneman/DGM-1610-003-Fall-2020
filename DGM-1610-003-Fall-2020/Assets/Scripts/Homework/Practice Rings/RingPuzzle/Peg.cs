@@ -6,7 +6,7 @@ using UnityEngine;
 public class Peg : MonoBehaviour
 {
     public List<GameObject> Disks;
-    
+
     public float
         YPos1 = -0.4753096f,
         YPos2 = 0.3917079f,

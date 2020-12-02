@@ -60,6 +60,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/FoodMoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/AnimalDetectCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/UIManagerRing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Learning/If Statements/PracticeSimpleColorChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/Clicks/HoldItem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/PlayerControllerX.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/SpawnManagerX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/MoveLeftX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/PlayerControllerX2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3SpinObjectsX.cs" />
@@ -115,11 +114,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/Clicks/Cahlik.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/Clicks/HoldItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzle/Peg.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleDraft.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Target.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5LevelDifficulty.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/Disk.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzle/Peg.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/UIManagerRing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Practice Rings/RingPuzzleDraft.cs" />
       </list>
     </option>
   </component>
@@ -213,7 +214,8 @@
       <workItem from="1606628188284" duration="5966000" />
       <workItem from="1606696371112" duration="7264000" />
       <workItem from="1606706750890" duration="14716000" />
-      <workItem from="1606780390210" duration="13124000" />
+      <workItem from="1606780390210" duration="13298000" />
+      <workItem from="1606880206457" duration="14082000" />
     </task>
     <servers />
   </component>
