@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class RingPuzzleDraft : MonoBehaviour
+public class RpGameManager : MonoBehaviour
 {
     public bool IsGameActive;
 
@@ -13,12 +13,12 @@ public class RingPuzzleDraft : MonoBehaviour
     public List<GameObject> HeldDisk;
     public List<GameObject> Pegs;
 
-    public UIManagerRing UiManager;
+    public RpUIManager UiManager;
 
     void Start()
     {
         UiManager = GameObject.Find("UI Manager")
-            .GetComponent<UIManagerRing>();
+            .GetComponent<RpUIManager>();
         
         Peg1 = GameObject.Find("Peg 1");
         Peg2 = GameObject.Find("Peg 2");
@@ -40,15 +40,15 @@ public class RingPuzzleDraft : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.A))
             {
-                Peg1.GetComponent<Peg>().HoldDropDisk();
+                Peg1.GetComponent<RpPeg>().HoldDropDisk();
             }
             if (Input.GetKeyDown(KeyCode.W))
             {
-                Peg2.GetComponent<Peg>().HoldDropDisk();
+                Peg2.GetComponent<RpPeg>().HoldDropDisk();
             }
             if (Input.GetKeyDown(KeyCode.D))
             {
-                Peg3.GetComponent<Peg>().HoldDropDisk();
+                Peg3.GetComponent<RpPeg>().HoldDropDisk();
             }
         
             ClickPeg(Peg1);
@@ -66,7 +66,7 @@ public class RingPuzzleDraft : MonoBehaviour
 
     void OnGameWinning()
     {
-        if (Peg3.GetComponent<Peg>().Disks.Count == 5)
+        if (Peg3.GetComponent<RpPeg>().Disks.Count == 5)
         {
             Debug.Log("You Won the Game");
         }
@@ -82,7 +82,7 @@ public class RingPuzzleDraft : MonoBehaviour
             {
                 if (hit.transform.gameObject == clickedPeg)
                 {
-                    clickedPeg.GetComponent<Peg>().HoldDropDisk();
+                    clickedPeg.GetComponent<RpPeg>().HoldDropDisk();
                 }
             }
         }
@@ -93,15 +93,15 @@ public class RingPuzzleDraft : MonoBehaviour
         {
             foreach (var peg in Pegs)
             {
-                if (peg.GetComponent<Peg>().Disks.Count != 0)
+                if (peg.GetComponent<RpPeg>().Disks.Count != 0)
                 {
-                    peg.GetComponent<Peg>().Disks.Clear();
+                    peg.GetComponent<RpPeg>().Disks.Clear();
                 }
             }
     
             if (HeldDisk.Count != 0)
             {
-                HeldDisk.Last().GetComponent<HoldItem>().enabled = false;
+                HeldDisk.Last().GetComponent<RpHoldItem>().enabled = false;
                 HeldDisk.Clear();
             }
             
@@ -128,11 +128,11 @@ public class RingPuzzleDraft : MonoBehaviour
     
     void SetDisksToPegOne()
     {
-        Peg1.GetComponent<Peg>().Disks.Add(Disk5);
-        Peg1.GetComponent<Peg>().Disks.Add(Disk4);
-        Peg1.GetComponent<Peg>().Disks.Add(Disk3);
-        Peg1.GetComponent<Peg>().Disks.Add(Disk2);
-        Peg1.GetComponent<Peg>().Disks.Add(Disk1);
+        Peg1.GetComponent<RpPeg>().Disks.Add(Disk5);
+        Peg1.GetComponent<RpPeg>().Disks.Add(Disk4);
+        Peg1.GetComponent<RpPeg>().Disks.Add(Disk3);
+        Peg1.GetComponent<RpPeg>().Disks.Add(Disk2);
+        Peg1.GetComponent<RpPeg>().Disks.Add(Disk1);
     }
 }
 

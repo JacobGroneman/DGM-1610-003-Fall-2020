@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIManagerRing : MonoBehaviour
+public class RpUIManager : MonoBehaviour
 {
         public bool PlayClicked = false;
     //UIs
@@ -15,14 +15,14 @@ public class UIManagerRing : MonoBehaviour
         public GameObject QuitPromptUi;
             public bool IsQuitPromptOn;
 
-        private RingPuzzleDraft _gameManager;
+        private RpGameManager _gameManager;
         
         void Start()
     {
         #region Initializing
             _titleUi = GameObject.Find("Title UI");
-            _gameManager = GameObject.Find("Main Camera").
-                GetComponent<RingPuzzleDraft>();
+            _gameManager = GameObject.Find("Game Manager").
+                GetComponent<RpGameManager>();
             #endregion
     }
     

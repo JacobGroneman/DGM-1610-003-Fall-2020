@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HoldItem : MonoBehaviour
+public class RpHoldItem : MonoBehaviour
 {
     private Vector3 screenPoint;
  

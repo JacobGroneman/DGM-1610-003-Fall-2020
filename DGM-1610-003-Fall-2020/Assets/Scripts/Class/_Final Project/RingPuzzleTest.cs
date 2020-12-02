@@ -78,7 +78,7 @@ public class RingPuzzleTest : MonoBehaviour
             { 
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
-                        ring.GetComponent<HoldItem>().enabled = true;
+                        ring.GetComponent<RpHoldItem>().enabled = true;
                         _heldRing.Add(ring);
                         peg.Remove(ring);
                 }
