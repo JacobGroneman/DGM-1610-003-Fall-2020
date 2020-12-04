@@ -98,13 +98,18 @@
               <e p="U4RotateCamera.cs" t="Include" />
               <e p="U4SpawnManager.cs" t="Include" />
             </e>
+            <e p="05 - Challenge 5 -Wack-a-Food" t="Include">
+              <e p="DestroyObjectX.cs" t="Include" />
+              <e p="DifficultyButtonX.cs" t="Include" />
+              <e p="GameManagerX.cs" t="Include" />
+              <e p="TargetX.cs" t="Include" />
+            </e>
             <e p="05 - Prototype 5 - User Interface" t="Include">
               <e p="U5LevelDifficulty.cs" t="Include" />
               <e p="U5Manager.cs" t="Include" />
               <e p="U5Target.cs" t="Include" />
             </e>
             <e p="_Final Project" t="Include">
-              <e p="RingPuzzleTest.cs" t="Include" />
               <e p="RpGameManager.cs" t="Include" />
               <e p="RpHoldItem.cs" t="Include" />
               <e p="RpPeg.cs" t="Include" />
