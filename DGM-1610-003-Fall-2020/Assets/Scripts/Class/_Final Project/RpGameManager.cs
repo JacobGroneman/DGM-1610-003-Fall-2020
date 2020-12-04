@@ -20,9 +20,9 @@ public class RpGameManager : MonoBehaviour
         UiManager = GameObject.Find("UI Manager")
             .GetComponent<RpUIManager>();
         
-        Peg1 = GameObject.Find("Peg 1");
-        Peg2 = GameObject.Find("Peg 2");
-        Peg3 = GameObject.Find("Peg 3");
+        Peg1 = GameObject.Find("Peg one");
+        Peg2 = GameObject.Find("Peg two");
+        Peg3 = GameObject.Find("Peg three");
 
         Disk1 = GameObject.Find("Disk one");
         Disk2 = GameObject.Find("Disk two");

@@ -38,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3RepeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpPeg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpHoldItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3SpinObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpGameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,10 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3SpawnManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes and Challenges/Challenge 3/Scripts/Ch3PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3UIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Challenge 3 -Balloons, Bombs, &amp; Booleans/Ch3PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Arrays/PracticePointsArray.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 4 - Gameplay Mechanics/U4RotateCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" />
@@ -106,6 +103,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Challenge 5 -Wack-a-Food/DifficultyButtonX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Challenge 5 -Wack-a-Food/GameManagerX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Challenge 5 -Wack-a-Food/DestroyObjectX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpHoldItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/testPlacementScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpPeg.cs" />
       </list>
     </option>
   </component>
@@ -202,6 +203,8 @@
       <workItem from="1606780390210" duration="13298000" />
       <workItem from="1606880206457" duration="16093000" />
       <workItem from="1607047056749" duration="2769000" />
+      <workItem from="1607110584629" duration="3616000" />
+      <workItem from="1607121093979" duration="4332000" />
     </task>
     <servers />
   </component>

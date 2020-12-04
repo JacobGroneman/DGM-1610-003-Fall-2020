@@ -8,11 +8,11 @@ public class RpPeg : MonoBehaviour
     public List<GameObject> Disks;
 
     public float
-        YPos1 = -0.4753096f,
-        YPos2 = 0.3917079f,
-        YPos3 = 1.257478f,
-        YPos4 = 2.12836f,
-        YPos5 = 2.99798298f;
+        YPos1 = 0.7198f,
+        YPos2 = 1.990718f,
+        YPos3 = 3.169652f,
+        YPos4 = 4.221679f,
+        YPos5 = 4.662696f;
 
     private Vector3 Disks1Pos, Disks2Pos, Disks3Pos, Disks4Pos, Disk5Pos;
     private RpGameManager _gameManager;
@@ -23,13 +23,10 @@ public class RpPeg : MonoBehaviour
     { 
         PegPos = transform.position;
         _gameManager = GameObject.Find("Game Manager").GetComponent<RpGameManager>();
-    }
-
-    void Update()
-    {
         DiskPlacement();
     }
-
+    
+    
     void DiskPlacement()
     {
         Disks[0].transform.position = new Vector3(PegPos.x, YPos1, PegPos.z);
@@ -64,6 +61,8 @@ public class RpPeg : MonoBehaviour
         Disks.Last().GetComponent<RpHoldItem>().enabled = true;
         _gameManager.HeldDisk.Add(Disks.Last());
         Disks.Remove(Disks.Last());
+        
+        _gameManager.HeldDisk.Last().transform.rotation = Quaternion.Euler(Vector3.zero);
     }
 
     private void DropDisk()
@@ -71,5 +70,8 @@ public class RpPeg : MonoBehaviour
         _gameManager.HeldDisk.Last().GetComponent<RpHoldItem>().enabled = false;
         Disks.Add(_gameManager.HeldDisk.Last());
         _gameManager.HeldDisk.Remove(_gameManager.HeldDisk.Last());
+        
+        Disks.Last().transform.position = new Vector3(PegPos.x, 5.66f, PegPos.z);
+        Disks.Last().transform.rotation = Quaternion.Euler(Vector3.zero);
     }
 }
