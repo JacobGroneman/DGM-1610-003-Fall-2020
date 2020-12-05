@@ -14,6 +14,7 @@ public class RpUIManager : MonoBehaviour
         public GameObject InstructionsUi;
         public GameObject QuitPromptUi;
             public bool IsQuitPromptOn;
+        public GameObject winUi;
 
         private RpGameManager _gameManager;
         

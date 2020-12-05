@@ -7,12 +7,13 @@ using UnityEngine.SceneManagement;
 public class RpGameManager : MonoBehaviour
 {
     public bool IsGameActive;
+    public bool IsGameWon;
 
     public GameObject Peg1, Peg2, Peg3;
     public GameObject Disk1, Disk2, Disk3, Disk4, Disk5;
     public List<GameObject> HeldDisk;
     public List<GameObject> Pegs;
-
+    public ParticleSystem winParticle;
     public RpUIManager UiManager;
 
     void Start()
@@ -36,7 +37,7 @@ public class RpGameManager : MonoBehaviour
     {
         OnGameWinning();
 
-        if (UiManager.IsQuitPromptOn == false)
+        if (UiManager.IsQuitPromptOn == false && IsGameWon == false)
         {
             if (Input.GetKeyDown(KeyCode.A))
             {
@@ -68,7 +69,9 @@ public class RpGameManager : MonoBehaviour
     {
         if (Peg3.GetComponent<RpPeg>().Disks.Count == 5)
         {
-            Debug.Log("You Won the Game");
+            UiManager.winUi.SetActive(true);
+            IsGameWon = true;
+            winParticle.Play();
         }
     }
     
@@ -102,6 +105,7 @@ public class RpGameManager : MonoBehaviour
             if (HeldDisk.Count != 0)
             {
                 HeldDisk.Last().GetComponent<RpHoldItem>().enabled = false;
+                HeldDisk.Last().GetComponent<MeshCollider>().isTrigger = false;
                 HeldDisk.Clear();
             }
             
@@ -133,6 +137,8 @@ public class RpGameManager : MonoBehaviour
         Peg1.GetComponent<RpPeg>().Disks.Add(Disk3);
         Peg1.GetComponent<RpPeg>().Disks.Add(Disk2);
         Peg1.GetComponent<RpPeg>().Disks.Add(Disk1);
+        
+        Peg1.GetComponent<RpPeg>().DiskPlacement();
     }
 }
 

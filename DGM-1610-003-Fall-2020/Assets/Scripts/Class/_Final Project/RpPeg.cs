@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.XR.WSA;
 
 public class RpPeg : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class RpPeg : MonoBehaviour
     }
     
     
-    void DiskPlacement()
+    public void DiskPlacement()
     {
         Disks[0].transform.position = new Vector3(PegPos.x, YPos1, PegPos.z);
         Disks[1].transform.position = new Vector3(PegPos.x, YPos2, PegPos.z);
@@ -63,6 +64,7 @@ public class RpPeg : MonoBehaviour
         Disks.Remove(Disks.Last());
         
         _gameManager.HeldDisk.Last().transform.rotation = Quaternion.Euler(Vector3.zero);
+        _gameManager.HeldDisk.Last().GetComponent<MeshCollider>().isTrigger = true;
     }
 
     private void DropDisk()
@@ -73,5 +75,7 @@ public class RpPeg : MonoBehaviour
         
         Disks.Last().transform.position = new Vector3(PegPos.x, 5.66f, PegPos.z);
         Disks.Last().transform.rotation = Quaternion.Euler(Vector3.zero);
+        Disks.Last().gameObject.GetComponent<Rigidbody>().AddForce(Vector3.down * 50f * Time.deltaTime);
+        Disks.Last().GetComponent<MeshCollider>().isTrigger = false;
     }
 }
