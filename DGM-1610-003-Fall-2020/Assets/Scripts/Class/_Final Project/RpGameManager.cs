@@ -51,46 +51,28 @@ public class RpGameManager : MonoBehaviour
             {
                 Peg3.GetComponent<RpPeg>().HoldDropDisk();
             }
-        
-            ClickPeg(Peg1);
-            ClickPeg(Peg2);
-            ClickPeg(Peg3);
-        
+            
             if (Input.GetKeyDown(KeyCode.E) && UiManager.PlayClicked)
             {
                 ResetRings();
-            }   
+            }
         }
 
-        QuittingMechanic();
+        if (!IsGameWon)
+        {
+            QuittingMechanic();
+        }
     }
 
     void OnGameWinning()
     {
         if (Peg3.GetComponent<RpPeg>().Disks.Count == 5)
         {
-            UiManager.winUi.SetActive(true);
             IsGameWon = true;
             winParticle.Play();
         }
     }
     
-    void ClickPeg(GameObject clickedPeg)
-    {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit))
-            {
-                if (hit.transform.gameObject == clickedPeg)
-                {
-                    clickedPeg.GetComponent<RpPeg>().HoldDropDisk();
-                }
-            }
-        }
-    }
-
     #region Reset & Quit
         private void ResetRings()
         {

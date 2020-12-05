@@ -29,6 +29,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/85/dd4da1f9/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 3 - Sound &amp; Effects/Unit3Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpDisk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/05 - Prototype 5 - User Interface/U5Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/02 - Prototype 2 - Animal Stamped/PlayerFarmerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 4 - Gameplay Mechanics/U4RotateCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/03 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/04 - Prototype 4 - Gameplay Mechanics/U4AvatarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Homework/Learning/Instantiate/PracticeItemSelection.cs" />
@@ -104,6 +104,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/05 - Challenge 5 -Wack-a-Food/DestroyObjectX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpHoldItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/testPlacementScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpDisk.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpPeg.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Class/_Final Project/RpGameManager.cs" />
@@ -205,7 +206,7 @@
       <workItem from="1607047056749" duration="2769000" />
       <workItem from="1607110584629" duration="3616000" />
       <workItem from="1607121093979" duration="8114000" />
-      <workItem from="1607131357123" duration="1537000" />
+      <workItem from="1607131357123" duration="11698000" />
     </task>
     <servers />
   </component>

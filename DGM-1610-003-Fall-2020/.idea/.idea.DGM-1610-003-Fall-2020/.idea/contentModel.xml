@@ -110,6 +110,7 @@
               <e p="U5Target.cs" t="Include" />
             </e>
             <e p="_Final Project" t="Include">
+              <e p="RpDisk.cs" t="Include" />
               <e p="RpGameManager.cs" t="Include" />
               <e p="RpHoldItem.cs" t="Include" />
               <e p="RpPeg.cs" t="Include" />

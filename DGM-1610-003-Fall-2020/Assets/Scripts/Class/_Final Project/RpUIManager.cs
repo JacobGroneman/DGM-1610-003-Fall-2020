@@ -14,7 +14,7 @@ public class RpUIManager : MonoBehaviour
         public GameObject InstructionsUi;
         public GameObject QuitPromptUi;
             public bool IsQuitPromptOn;
-        public GameObject winUi;
+        public GameObject WinUi;
 
         private RpGameManager _gameManager;
         
@@ -37,6 +37,18 @@ public class RpUIManager : MonoBehaviour
         if (PlayClicked == true && _titleUi.transform.position.x < (uiCenterX + 1000))
         {
             _titleUi.transform.Translate(Vector3.right * _velocity * Time.deltaTime);
+        }
+
+        if (_gameManager.IsGameWon)
+        {
+            if (!IsQuitPromptOn)
+            {
+                WinUi.SetActive(true);
+            }
+            else if (IsQuitPromptOn)
+            {
+                WinUi.SetActive(false);
+            }
         }
     }
 
@@ -75,6 +87,11 @@ public class RpUIManager : MonoBehaviour
     {
         QuitPromptUi.SetActive(false);
         IsQuitPromptOn = false;
+    }
+
+    public void ReplayGame()
+    {
+        _gameManager.QuitGame();
     }
     #endregion
 }

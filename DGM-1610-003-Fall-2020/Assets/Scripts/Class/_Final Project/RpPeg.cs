@@ -36,7 +36,15 @@ public class RpPeg : MonoBehaviour
         Disks[3].transform.position = new Vector3(PegPos.x, YPos4, PegPos.z);
         Disks[4].transform.position = new Vector3(PegPos.x, YPos5, PegPos.z);
     }
-    
+
+    void OnMouseDown()
+    {
+        if (_gameManager.HeldDisk.Count != 0)
+        {
+           HoldDropDisk();
+        }
+    }
+
     public void HoldDropDisk()
     {
         if (_gameManager.HeldDisk.Count == 0)
@@ -72,8 +80,7 @@ public class RpPeg : MonoBehaviour
         _gameManager.HeldDisk.Last().GetComponent<RpHoldItem>().enabled = false;
         Disks.Add(_gameManager.HeldDisk.Last());
         _gameManager.HeldDisk.Remove(_gameManager.HeldDisk.Last());
-        
-        Disks.Last().transform.position = new Vector3(PegPos.x, 5.66f, PegPos.z);
+        Disks.Last().transform.position = new Vector3(PegPos.x, 6f, PegPos.z);
         Disks.Last().transform.rotation = Quaternion.Euler(Vector3.zero);
         Disks.Last().gameObject.GetComponent<Rigidbody>().AddForce(Vector3.down * 50f * Time.deltaTime);
         Disks.Last().GetComponent<MeshCollider>().isTrigger = false;
