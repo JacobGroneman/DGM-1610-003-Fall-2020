@@ -431,8 +431,8 @@ MonoBehaviour:
   - {fileID: 2772582068196587154}
   - {fileID: 374387767}
   - {fileID: 2056351088}
-  winParticle: {fileID: 2063088843}
-  UiManager: {fileID: 0}
+  WinParticle: {fileID: 2063088841}
+  UiManager: {fileID: 1426443917}
 --- !u!4 &369173613
 Transform:
   m_ObjectHideFlags: 0

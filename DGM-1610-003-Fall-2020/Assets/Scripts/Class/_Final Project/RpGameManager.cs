@@ -13,7 +13,6 @@ public class RpGameManager : MonoBehaviour
     public GameObject Disk1, Disk2, Disk3, Disk4, Disk5;
     public List<GameObject> HeldDisk;
     public List<GameObject> Pegs;
-    public ParticleSystem winParticle;
     public RpUIManager UiManager;
 
     void Start()
@@ -69,7 +68,6 @@ public class RpGameManager : MonoBehaviour
         if (Peg3.GetComponent<RpPeg>().Disks.Count == 5)
         {
             IsGameWon = true;
-            winParticle.Play();
         }
     }
     
