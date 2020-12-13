@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes and Challenges/Final Project/Ring Puzzle.unity
+    guid: 612a0218851533845965c4b5d25dc1b5
   m_configObjects: {}
